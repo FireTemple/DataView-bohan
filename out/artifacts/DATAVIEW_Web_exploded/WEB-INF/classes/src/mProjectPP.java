@@ -14,7 +14,7 @@ import dataview.models.OutputPort;
 import dataview.models.Port;
 import dataview.models.Task;
 
-/*The number of mProjectPP jobs (which re-project the input image) is equal to the number of input FITS images processed. 
+/*The number of mProjectPP jobs (which re-project the input image) is equal to the number of input FITS images processed.
  * Two inputs and two outputs are included in the task. 
  * The outputs are the re-projected image and an “area” image that consists 
  * of the fraction of the image that belongs in the final mosaic.

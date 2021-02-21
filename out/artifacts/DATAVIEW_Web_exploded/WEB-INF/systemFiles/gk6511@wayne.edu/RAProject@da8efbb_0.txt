@@ -1,0 +1,10 @@
+crsname,credits,class_number,semester,ssn
+gym,2,5,summer2018,4
+lab,1,2,summer2017,2
+gym,2,5,winter2011,4
+yoga,1,4,winter2018,6
+math,3,0,summer2016,1
+science,4,7,summer2018,1
+yoga,1,4,winter2010,2
+workflows,100,10,winter2000,9
+basketball,3,3,summer2019,5

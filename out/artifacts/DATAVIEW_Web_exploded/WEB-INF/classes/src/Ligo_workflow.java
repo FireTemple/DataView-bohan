@@ -11,7 +11,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 
 /*
- * Two parameters are used in the Montage_workflow consturction: 
+ * Two parameters are used in the Montage_workflow consturction:
  * @para The number of mProject and the number of mDiffFit
  */
 
@@ -23,7 +23,7 @@ public class Ligo_workflow extends Workflow{
 	
 	Ligo_workflow()
 	{
-		super("Ligo_workflow", "This workflow is used to benefit from the Ligo workflow structure to do experiments.");	
+		super("Ligo_workflow", "This workflow is used to benefit from the Ligo workflow structure to do experiments.");
 		wins = new Object[num_TmpltBank];
 		wouts = new Object[num_TmpltBank];
 		for(int i = 0; i < num_TmpltBank; i++){

@@ -1,7 +1,3 @@
-/* 
- * We will assign a random cluster number k (0, ..., K-1) to each point in the input file
- *
- */
 import java.util.*;
 import dataview.models.*;
 

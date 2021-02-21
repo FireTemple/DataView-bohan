@@ -28,8 +28,7 @@ public class WorkflowPlanner_T_Cluster extends WorkflowPlanner{
 		List<Integer> planned_tasks = new ArrayList<Integer>();
 		
 		GlobalSchedule gsch = new GlobalSchedule(w);
-		
-		
+
 		List<Integer> path;
 		
 		while((path = findAPath(planned_tasks)) != null){

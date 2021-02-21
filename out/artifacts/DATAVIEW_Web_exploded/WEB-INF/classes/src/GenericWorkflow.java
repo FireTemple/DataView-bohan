@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.List;
 import org.w3c.dom.Document;
@@ -9,7 +8,7 @@ import org.w3c.dom.NodeList;
 import dataview.models.*;
 
 /**
- * The class is extended from the Workflow and be used to create a workflow instance from web bench in Medator 
+ * The class is extended from the Workflow and be used to create a workflow instance from web bench in Mediator
  */
 public class GenericWorkflow extends Workflow {
 	Document spec = null;
@@ -33,7 +32,9 @@ public class GenericWorkflow extends Workflow {
 	{
 		List<String> tasksName = new ArrayList<String>();
 		List<String> tasksId = new ArrayList<String>();
-		
+
+
+
 		NodeList wfInstances = spec.getElementsByTagName("workflowInstance");
 	 	NodeList wfTasks = spec.getElementsByTagName("workflow");
 	 	

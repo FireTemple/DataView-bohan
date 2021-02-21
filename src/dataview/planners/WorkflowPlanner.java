@@ -65,6 +65,7 @@ public class WorkflowPlanner {
 	 */
 	public GlobalSchedule plan()
 	{
+		System.out.println("----------*****************------------");
 		return null;
 	}
 }

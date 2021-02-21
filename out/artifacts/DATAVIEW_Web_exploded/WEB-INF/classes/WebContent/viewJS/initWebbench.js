@@ -5,6 +5,7 @@
 */
 
 function createTreeInTheSidebar() {
+
 	delete graphG.getStylesheet().getDefaultEdgeStyle()[mxConstants.STYLE_ENDARROW];
 	
 	var treeDivLeft = document.createElement('div');
@@ -93,7 +94,7 @@ function convertWorkflowsItemsToArray(items){
 
 
 function convertTaskItemsToArray(items){
-	//console.log(items);
+
 	var itemsarray = items.split(",");
 	var jsonString = "{\"Tasks\":[";
 	for (temp in itemsarray ) {
@@ -116,10 +117,7 @@ function convertTaskItemsToArray(items){
 		var obj = getPortsNumber(dropboxMetadata[i]);
 		dropboxMetadataItem.inputPorts = obj.inputPorts;
 		dropboxMetadataItem.outputPorts = obj.outputPorts;
-
 		makeTaskDraggable(dropboxMetadataItem);
-		
-		
 	}
 }
 

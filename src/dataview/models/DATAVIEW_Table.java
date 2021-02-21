@@ -79,7 +79,6 @@ public class DATAVIEW_Table {
 	{
 		for(int i = 0; i < this.header.length; i++) 
 		{
-			
 			if (colName.contentEquals(this.header[i])) 
 				return i;
 		}
@@ -108,7 +107,7 @@ public class DATAVIEW_Table {
 	 */
 	public static boolean fairCharHeader(int ch) 
 	{
-		for(int i = 0; i < illegalHeaderChars.length(); i++) 
+		for(int i = 0; i < illegalHeaderChars.length(); i++)
 		{
 			if(ch == illegalHeaderChars.charAt(i))
 				return false;

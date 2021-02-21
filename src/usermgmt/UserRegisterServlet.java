@@ -5,26 +5,18 @@
  */
 
 package usermgmt;
-
 import java.io.File;
-
 import java.io.IOException;
-
-
+import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-
 import dataview.models.User;
-
-
 
 /**
  * Servlet implementation class UserRegister 
  */
-
 public class UserRegisterServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -41,13 +33,20 @@ public class UserRegisterServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("Inside servlet now...");
+
 		// TODO Auto-generated method stub
      	String strUserName = (String)request.getParameter("input-name");
+
      	String strEmailID = (String)request.getParameter("input-email");
+
      	String strOrganization = (String)request.getParameter("input-organization");
+
      	String strTitle = (String)request.getParameter("input-title");
+
      	String strCountry = (String)request.getParameter("country");
+
      	String strPass = (String)request.getParameter("input-password");
+
      	Encrypt encrypt = null;
 		try {
 			encrypt = new Encrypt();
@@ -60,19 +59,46 @@ public class UserRegisterServlet extends HttpServlet {
      	System.out.println(tableLocation);
      	User user = new User(strUserName, strEmailID, strOrganization, strTitle, strCountry, strPass, tableLocation);
      	if(user.signup()){
-     		request.setAttribute("statusMsg", "<br/> Registration success.. <br/>");
- 			getServletConfig().getServletContext().getRequestDispatcher(
- 			        "/login.jsp").forward(request,response);
- 			System.out.println("Success");
+//     		request.setAttribute("statusMsg", "<br/> Registration success.. <br/>");
+// 			getServletConfig().getServletContext().getRequestDispatcher(
+// 			        "/login.jsp").forward(request,response);
+// 			System.out.println("Success");
+			response.setCharacterEncoding("UTF-8");
+			response.setContentType("application/json; charset=utf-8");
+			String jsonStr = "{\"message\":\"Sign up successfully\",\"code\":\"0\"}";
+			PrintWriter out = null;
+			try {
+				out = response.getWriter();
+				out.write(jsonStr);
+			} catch (IOException e) {
+				e.printStackTrace();
+			} finally {
+				if (out != null) {
+					out.close();
+				}
+			}
      	}
      	else{
-     		request.setAttribute("statusMsg", "<br/>Account already exists. <br/> <br/>");
-     		getServletConfig().getServletContext().getRequestDispatcher("/login.jsp").forward(request,response);
+
+//     		request.setAttribute("statusMsg", "<br/>Account already exists. <br/> <br/>");
+//     		getServletConfig().getServletContext().getRequestDispatcher("/login.jsp").forward(request,response);
      		//response.sendRedirect("login.jsp");
+
+			response.setCharacterEncoding("UTF-8");
+			response.setContentType("application/json; charset=utf-8");
+			String jsonStr = "{\"message\":\"\",\"user already exist\":\"100001\"}";
+			PrintWriter out = null;
+			try {
+				out = response.getWriter();
+				out.write(jsonStr);
+			} catch (IOException e) {
+				e.printStackTrace();
+			} finally {
+				if (out != null) {
+					out.close();
+				}
+			}
      	}
-     	
-		
-     	
 	}
 
 }

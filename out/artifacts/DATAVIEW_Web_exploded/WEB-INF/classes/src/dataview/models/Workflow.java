@@ -288,6 +288,7 @@ public class Workflow {
     	} 	
     }
 
+
     /* connect the first output of parent to each input of the M children */
     public void addEdges_SplitPattern(int winIndex, Task [] children, int M)
     {
@@ -358,6 +359,7 @@ public class Workflow {
          	for(int i=0; i < M; i++)
     			addEdge(parents[i], 0, children[i], 0);
     }
+
     
     public Stage getStage(int i)
     {
@@ -367,7 +369,8 @@ public class Workflow {
     	else // if negative
     		return myStages.get(myStages.size()+i);  // -1 is the last stage  	
     }
- 
+
+
 	public JSONObject getWorkflowSpecification()
 	{
 		JSONObject obj = new JSONObject();

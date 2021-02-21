@@ -98,10 +98,9 @@
 
     <script src="./Web_Files/quant.js" async="" type="text/javascript"></script>
     <script type="text/javascript" async="" src="./Web_Files/ga.js"></script>
-    <script><!--
+    <script>
     var STATIC_BASE = '//cdn1.editmysite.com/';
     var STYLE_PREFIX = 'wsite';
-    //-->
     </script>
     <style type="text/css"></style>
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
@@ -138,7 +137,7 @@
             $("#dialog-1").dialog("open");
         }
     </script>
-    <script type="text/javascript"><!--
+    <script type="text/javascript">
 
 
     (function (jQuery) {
@@ -231,7 +230,6 @@
         }
 
     </script>
-
     <link href="./Web_Files/sites.css" rel="stylesheet">
 </head>
 <body class="wsite-theme-light no-header-page  wsite-page-new-page">
@@ -383,7 +381,8 @@
 
                                                             <tr>
                                                                 <td></td>
-                                                                <td align="left"><input type="submit"
+                                                                <td align="left">
+                                                                    <input type="submit"
                                                                                         style="background-color:#0066FF;color:#FFFFFF"
                                                                                         id="btnSubmit2"
                                                                                         value="      Sign in     "
@@ -721,7 +720,6 @@
             <ul class="formlist">
                 <h2 class="wsite-content-title" style="text-align: left;">Sign
                     up</h2>
-
                 <div>
                     <div class="wsite-form-field" style="margin: 5px 0px 5px 0px;">
                         <label class="wsite-form-label" for="input-name">Name

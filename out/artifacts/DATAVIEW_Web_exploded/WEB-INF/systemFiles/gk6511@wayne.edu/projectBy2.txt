@@ -1,0 +1,1 @@
+crsname,credits,class_number,semester,ssn

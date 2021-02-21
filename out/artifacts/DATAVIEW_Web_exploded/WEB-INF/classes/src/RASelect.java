@@ -3,6 +3,9 @@ import dataview.models.InputPort;
 import dataview.models.OutputPort;
 import dataview.models.Port;
 import dataview.models.Task;
+
+import java.util.HashMap;
+
 /**
  * Relational algebra select operator as a task
  * @author austin
@@ -23,17 +26,24 @@ public class RASelect extends Task
 	@Override
 	public void run()
 	{
+
 		//The format will in the following format:
 		//!*((condition operator value)* (&\|)*) 
 		//Parenthesis must follow negation if used.
 		//Get table from file
+
 		DATAVIEW_Table initalTable = (DATAVIEW_Table) ins[0].read();
+
 		String selector = (String) ins[1].read();
+
 		ConditionParser.RAOperator operator = ConditionParser.RAOperator.select;
+
 		ConditionParser parser = new ConditionParser(selector,initalTable,operator,0);
+
 		DATAVIEW_Table table = parser.parseOr(true);
+
 		System.out.println(table.toString());
+
 		outs[0].write(table);
-		
 	}
 }

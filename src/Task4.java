@@ -1,4 +1,4 @@
-import dataview.models.*; 
+import dataview.models.*;
 
 public class Task4 extends Task{
 	/*

@@ -1,23 +1,3 @@
-/* 
- * This step will reassign a point to a new cluster based on the centroid matrix, which stores the K vectors, each represents
- * a centroid of a cluster. 
- * 
- * Given the points in port ins[0], and the centroid matrix in ins[1], we reassign each point to a new cluster number and 
- * store the new assignment int port outs[0].
- * 
- * Author: Shiyong Lu
- * 7/10/2018
- * 
- * 
- * Big Data Research Laboratory 
- * Wayne State University
- * @All rights reserved.
- * 
- * Logs:
- *  o 7/10/2018, first release
- * 
- */
-
 import dataview.models.*;
 
 public class DisReassignCluster extends Task {

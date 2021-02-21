@@ -1,6 +1,3 @@
-
-
-
 import dataview.models.DATAVIEW_BigFile;
 import dataview.models.Task;
 import dataview.models.Workflow;

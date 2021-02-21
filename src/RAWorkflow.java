@@ -5,7 +5,7 @@ import dataview.models.Workflow;
 public class RAWorkflow extends Workflow{		
 	public RAWorkflow()
 	{
-		super("RAWorkflow", "This workflow Preforms relational algebra on a dataset");	
+		super("RAWorkflow", "This workflow Preforms relational algebra on a dataset");
 		wins = new Object[2];
 		wouts = new Object[1];
 //		wins[0] = new DATAVIEW_BigFile("tables/4Col.txt");

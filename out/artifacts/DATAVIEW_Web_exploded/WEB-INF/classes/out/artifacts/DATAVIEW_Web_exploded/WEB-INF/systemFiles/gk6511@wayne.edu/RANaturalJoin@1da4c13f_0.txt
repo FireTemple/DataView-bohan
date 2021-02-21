@@ -1,0 +1,10 @@
+crscode,semester,ssn,crsname,credits
+4,winter2018,6,yoga,1
+0,summer2016,1,math,3
+7,summer2018,1,science,4
+4,winter2010,2,yoga,1
+5,winter2011,4,gym,2
+3,summer2019,5,basketball,3
+2,summer2017,2,lab,1
+10,winter2000,9,workflows,100
+5,summer2018,4,gym,2

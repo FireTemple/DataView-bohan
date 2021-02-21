@@ -1,4 +1,4 @@
-import dataview.models.*; 
+import dataview.models.*;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 
@@ -6,9 +6,7 @@ import java.awt.Dimension;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 
-import com.dropbox.core.v1.DbxEntry.File;
 import com.mxgraph.layout.hierarchical.mxHierarchicalLayout;
-import com.mxgraph.swing.mxGraphComponent;
 import com.mxgraph.view.mxGraph;
 
 public class WorkflowVisualization extends JFrame
@@ -132,7 +130,7 @@ public class WorkflowVisualization extends JFrame
 
 	/*public static void maink(String[] args)
 	{
-		WorkflowVisualization frame = new WorkflowVisualization();		
+		WorkflowVisualization frame = new WorkflowVisualization();
 		KMeans_workflow w = new KMeans_workflow();			
 		w.design();
 		frame.drawWorkflowGraph(w);
@@ -163,7 +161,7 @@ public class WorkflowVisualization extends JFrame
 	
 	/*public static void maintt(String[] args)
 	{
-		WorkflowVisualization frame = new WorkflowVisualization();		
+		WorkflowVisualization frame = new WorkflowVisualization();
 
 		
 		// WorkflowGenerator wg = new WorkflowGenerator(7, 5);

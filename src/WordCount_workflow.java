@@ -6,7 +6,7 @@ import dataview.models.*;
 public class WordCount_workflow extends Workflow{		
 		public WordCount_workflow()
 		{
-			super("WordCount_workflow", "This workflow counts the frequency of a huge input file.");	
+			super("WordCount_workflow", "This workflow counts the frequency of a huge input file.");
 			wins = new Object[1];
 			wouts = new Object[1];
 			wins[0] = new DATAVIEW_BigFile("book.txt");

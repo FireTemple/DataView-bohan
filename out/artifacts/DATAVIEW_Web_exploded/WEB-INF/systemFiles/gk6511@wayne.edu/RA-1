@@ -1,0 +1,88 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="4" value="Set Comment" style="node;image=/static/images/normal-type/txt-icon.jpeg" vertex="1" parent="1">
+      <mxGeometry x="710" y="150" width="100" height="135" as="geometry"/>
+      <Object id="id:GGsgfFZNXiAAAAAAAAAAGw" type="input" path="/DATAVIEW-INPUT/user.txt" isInit="1" uuid="853f1fd9-c1d5-4627-8ad4-9921cb22c393" name="user" as="data"/>
+    </mxCell>
+    <mxCell id="5" value="&lt;i data-v-6b3d0f36=&quot;&quot; class=&quot;el-icon-lx-text&quot;&gt;&lt;/i&gt;&#xa;                            user.txt&#xa;                        " style="constituent=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#e6a23c" vertex="1" connectable="0" parent="4">
+      <mxGeometry x="0.1" y="0.65" width="80" height="16" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="6" style="normalType;constituent=1;fillColor=none;image=/static/images/normal-type/forest.png" vertex="1" connectable="0" parent="4">
+      <mxGeometry x="0.05" y="0.05" width="19" height="14" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="9" value="Set Comment" style="node;image=/static/images/normal-type/txt-icon.jpeg" vertex="1" parent="1">
+      <mxGeometry x="710" y="150" width="100" height="135" as="geometry"/>
+      <Object id="id:GGsgfFZNXiAAAAAAAAAAGw" type="input" path="/DATAVIEW-INPUT/user.txt" isInit="1" uuid="934a56fa-6afa-4b68-a78a-c78ca75d90f3" name="user" as="data"/>
+    </mxCell>
+    <mxCell id="10" value="&lt;i data-v-6b3d0f36=&quot;&quot; class=&quot;el-icon-lx-text&quot;&gt;&lt;/i&gt;&#xa;                            user.txt&#xa;                        " style="constituent=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#e6a23c" vertex="1" connectable="0" parent="9">
+      <mxGeometry x="0.1" y="0.65" width="80" height="16" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="11" style="normalType;constituent=1;fillColor=none;image=/static/images/normal-type/forest.png" vertex="1" connectable="0" parent="9">
+      <mxGeometry x="0.05" y="0.05" width="19" height="14" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="14" value="Set Comment" style="node;image=/static/images/normal-type/txt-icon.jpeg" vertex="1" parent="1">
+      <mxGeometry x="710" y="320" width="100" height="135" as="geometry"/>
+      <Object id="id:GGsgfFZNXiAAAAAAAAAAGg" type="input" path="/DATAVIEW-INPUT/condition.txt" isInit="1" uuid="6971628e-f3f5-40c0-89c7-dc8de3189bb2" name="condition" as="data"/>
+    </mxCell>
+    <mxCell id="15" value="&lt;i data-v-6b3d0f36=&quot;&quot; class=&quot;el-icon-lx-text&quot;&gt;&lt;/i&gt;&#xa;                            condition.txt&#xa;                        " style="constituent=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#e6a23c" vertex="1" connectable="0" parent="14">
+      <mxGeometry x="0.1" y="0.65" width="80" height="16" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="16" style="normalType;constituent=1;fillColor=none;image=/static/images/normal-type/forest.png" vertex="1" connectable="0" parent="14">
+      <mxGeometry x="0.05" y="0.05" width="19" height="14" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="19" value="Set Comment" style="node;image=/static/images/normal-type/txt-icon.jpeg" vertex="1" parent="1">
+      <mxGeometry x="710" y="320" width="100" height="135" as="geometry"/>
+      <Object id="id:GGsgfFZNXiAAAAAAAAAAGg" type="input" path="/DATAVIEW-INPUT/condition.txt" isInit="1" uuid="770d72d2-31da-433a-8116-c544b2defc5e" name="condition" as="data"/>
+    </mxCell>
+    <mxCell id="20" value="&lt;i data-v-6b3d0f36=&quot;&quot; class=&quot;el-icon-lx-text&quot;&gt;&lt;/i&gt;&#xa;                            condition.txt&#xa;                        " style="constituent=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#e6a23c" vertex="1" connectable="0" parent="19">
+      <mxGeometry x="0.1" y="0.65" width="80" height="16" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="21" style="normalType;constituent=1;fillColor=none;image=/static/images/normal-type/forest.png" vertex="1" connectable="0" parent="19">
+      <mxGeometry x="0.05" y="0.05" width="19" height="14" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="24" value="Set Comment" style="node;image=/static/images/normal-type/java.png" vertex="1" parent="1">
+      <mxGeometry x="900" y="240" width="100" height="135" as="geometry"/>
+      <Object id="id:GGsgfFZNXiAAAAAAAAAADw" type="task" path="/DATAVIEW/Tasks/RASelect.java" isInit="1" uuid="b74262f7-60cf-42b9-8670-cc5e9a58fa68" name="RASelect" as="data"/>
+    </mxCell>
+    <mxCell id="25" value="&lt;i data-v-6b3d0f36=&quot;&quot; class=&quot;el-icon-lx-text&quot;&gt;&lt;/i&gt;&#xa;                            RASelect.java&#xa;                        " style="constituent=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#e6a23c" vertex="1" connectable="0" parent="24">
+      <mxGeometry x="0.1" y="0.65" width="80" height="16" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="26" style="normalType;constituent=1;fillColor=none;image=/static/images/normal-type/forest.png" vertex="1" connectable="0" parent="24">
+      <mxGeometry x="0.05" y="0.05" width="19" height="14" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="29" value="Set Comment" style="node;image=/static/images/normal-type/java.png" vertex="1" parent="1">
+      <mxGeometry x="900" y="240" width="100" height="135" as="geometry"/>
+      <Object id="id:GGsgfFZNXiAAAAAAAAAADw" type="task" path="/DATAVIEW/Tasks/RASelect.java" isInit="1" uuid="e5af57b7-4fd3-49d7-8725-07e76a307a7d" name="RASelect" as="data"/>
+    </mxCell>
+    <mxCell id="30" value="&lt;i data-v-6b3d0f36=&quot;&quot; class=&quot;el-icon-lx-text&quot;&gt;&lt;/i&gt;&#xa;                            RASelect.java&#xa;                        " style="constituent=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#e6a23c" vertex="1" connectable="0" parent="29">
+      <mxGeometry x="0.1" y="0.65" width="80" height="16" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="31" style="normalType;constituent=1;fillColor=none;image=/static/images/normal-type/forest.png" vertex="1" connectable="0" parent="29">
+      <mxGeometry x="0.05" y="0.05" width="19" height="14" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="32" style="exitX=1;exitY=0.25;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="29">
+      <mxGeometry relative="1" as="geometry"/>
+      <Object type="inputToTask" isInit="1" source="/DATAVIEW-INPUT/user.txt" target="/DATAVIEW/Tasks/RASelect.java" targetPortName="in0" as="data"/>
+    </mxCell>
+    <mxCell id="33" style="exitX=1;exitY=0.25;entryX=0;entryY=0.25;" edge="1" parent="1" source="19" target="29">
+      <mxGeometry relative="1" as="geometry"/>
+      <Object type="inputToTask" isInit="1" source="/DATAVIEW-INPUT/condition.txt" target="/DATAVIEW/Tasks/RASelect.java" targetPortName="in1" as="data"/>
+    </mxCell>
+    <mxCell id="36" value="Set Comment" style="node;image=/static/images/normal-type/output-icon.png" vertex="1" parent="1">
+      <mxGeometry x="1170" y="240" width="100" height="135" as="geometry"/>
+      <Object id="100000" type="output" path="output" isInit="1" uuid="e6e62cf4-04d3-4bdd-86da-cf8686667f4e" name="output" as="data"/>
+    </mxCell>
+    <mxCell id="37" value="&#xa;                            Output&#xa;                        " style="constituent=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#e6a23c" vertex="1" connectable="0" parent="36">
+      <mxGeometry x="0.1" y="0.65" width="80" height="16" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="38" style="normalType;constituent=1;fillColor=none;image=/static/images/normal-type/forest.png" vertex="1" connectable="0" parent="36">
+      <mxGeometry x="0.05" y="0.05" width="19" height="14" relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="39" style="exitX=1;exitY=0.25;entryX=0;entryY=0.25;" edge="1" parent="1" source="29" target="36">
+      <mxGeometry relative="1" as="geometry"/>
+      <Object type="toOutput" isInit="1" source="/DATAVIEW/Tasks/RASelect.java" target="output" sourcePortName="out0" as="data"/>
+    </mxCell>
+  </root>
+</mxGraphModel>

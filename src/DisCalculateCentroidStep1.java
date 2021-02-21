@@ -1,27 +1,3 @@
-/* 
- * This step will take a points table and then calculate the partial sum of each cluster. 
- * 
- * The output will contain for each cluster, the partial number of points in that cluster, and the partial sum vector
- * The output will be used as the input for a subsequent task to calculate the centroid of each cluster.
- *  
- * Input ports: ins[0]: the points table, each row represents the ID of the point, the cluster number, and the vector of the point:
- * Output ports: outs[i], i=0, ..., K-1: the number of points in cluster i, and the partial sum vector of cluster i
- *  
- * 
- * Author: Ishtiaq Ahmed
- * 03/01/2019
- * 
- * 
- * Big Data Research Laboratory 
- * Wayne State University
- * @All rights reserved.
- * 
- * Logs:
- *  o 03/01/2019, first release
- * 
- */
-import java.io.*;
-
 import dataview.models.*;
 
 public class DisCalculateCentroidStep1 extends Task{

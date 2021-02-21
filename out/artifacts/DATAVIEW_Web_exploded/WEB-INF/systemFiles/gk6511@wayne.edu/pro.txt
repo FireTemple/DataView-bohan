@@ -1,7 +1,0 @@
-ssn,profname,status
-0,aaa,n
-1,bbb,n
-2,ccc,n
-3,ddd,n
-4,fff,y
-5,ggg,y

@@ -2,14 +2,18 @@ package Utility;
 
 
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.util.*;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 
 import org.json.JSONObject;
 import org.w3c.dom.Document;
@@ -27,6 +31,13 @@ import org.w3c.dom.NodeList;
  */
 public class MXGraphToSWLTranslator {
 
+	/**
+	 * Traverse all element, add them to a map
+	 * 	Key: id
+	 * 	Element: mxCell element tag in xml
+	 * @param mxGraphEl
+	 * @return
+	 */
 	public static HashMap<String, Element> getMxCells(Element mxGraphEl) {
 		HashMap<String, Element> mxCells = new HashMap<String, Element>();
 		NodeList mxCellsList = mxGraphEl.getElementsByTagName("mxCell");
@@ -128,7 +139,8 @@ public class MXGraphToSWLTranslator {
 
 							String fromAttribute = sourceComponentId + "." + sourcePortId;
 							String toAttribute = "this." + getOutputPortIdFromCell(mxCell);
-							;
+
+
 
 							((Element) outputMapping).setAttribute("from", fromAttribute);
 							((Element) outputMapping).setAttribute("to", toAttribute);
@@ -320,12 +332,27 @@ public class MXGraphToSWLTranslator {
 			return null;
 	}
 
+	/**
+	 * Check if this element is a workflowComponent
+	 * @param mxCell
+	 * @return
+	 */
 	public static boolean isWorkflowInstance(Element mxCell) {
 		if (mxCell.getAttribute("value").trim().contains("workflowComponent"))
 			return true;
 		return false;
 	}
 
+	/**
+	 * 这里的判断逻辑是
+	 * 		1. 必须有 source 和 target
+	 * 		2. 这条边的source 或者 target 的parent 不能是第一个 mxCells
+	 * 		3. 这条边的source 或者 target 不可以是 用于数据浏览的（点击打开table），因为实际上数据浏览的node也算作了边
+	 * 			ps:这里不明白为啥 因为老版本和新版本都没有
+	 * @param mxCell
+	 * @param mxCells
+	 * @return
+	 */
 	public static boolean isDataChannel(Element mxCell, HashMap<String, Element> mxCells) {
 		if (mxCell.hasAttribute("source")
 				&& mxCell.hasAttribute("target")
@@ -342,16 +369,25 @@ public class MXGraphToSWLTranslator {
 	}
 
 	public static Element mxCellToWorkflowInstance(Element mxCell, Document doc) {
+		// 1. check if this workflow is a task
 		if (isWorkflowInstance(mxCell)) {
+			// 2. get the task name ?
 			String workflowName = getWFNameFromCell(mxCell);
+			// 3. get task id, combined wih task name + id
 			String instanceId = getInstanceId(mxCell);
 
+			// 4. start to create Element
+			// 4.1 workflow
 			Node workflow = doc.createElement("workflow");
 			workflow.setTextContent(workflowName);
 
+			// 4.2 workflowInstance
 			Node workflowInstance = doc.createElement("workflowInstance");
+
+			// 4.3 add id
 			((Element) workflowInstance).setAttribute("id", instanceId);
 
+			// 4.4 append to the workflow to the workflowInstance
 			workflowInstance.appendChild(workflow);
 
 			return (Element) workflowInstance;
@@ -360,6 +396,11 @@ public class MXGraphToSWLTranslator {
 			return null;
 	}
 
+	/**
+	 * Parsing workflow task name
+	 * @param mxCell
+	 * @return
+	 */
 	public static String getWFNameFromCell(Element mxCell) {
 		String result = "undefined";
 		result = mxCell.getAttribute("value").trim();// .replace("^lt;h1 style=^quot;margin:0px;^quot;^gt;", "");
@@ -373,6 +414,14 @@ public class MXGraphToSWLTranslator {
 		return result;
 	}
 
+	/**
+	 * Parsing all edges
+	 * This part is not custom data, so new version no need to change it.
+	 * @param mxCell
+	 * @param mxCells
+	 * @param doc
+	 * @return
+	 */
 	public static Element mxCellToDataChannel(Element mxCell, HashMap<String, Element> mxCells, Document doc) {
 		if (isDataChannel(mxCell, mxCells)) {
 			Node dataChannel = doc.createElement("dataChannel");
@@ -421,8 +470,11 @@ public class MXGraphToSWLTranslator {
 		ArrayList<Element> workflowInstances = new ArrayList<Element>();
 		Element currWorkflowInstance = null;
 		for (Element mxCell : mxCells.values()) {
+			// TODO change to use iterator
 			currWorkflowInstance = null;
 			currWorkflowInstance = mxCellToWorkflowInstance(mxCell, doc);
+
+			// if this Element is a task then add it to the workflow instance
 			if (currWorkflowInstance != null)
 				workflowInstances.add(currWorkflowInstance);
 		}
@@ -430,6 +482,12 @@ public class MXGraphToSWLTranslator {
 		return workflowInstances;
 	}
 
+	/**
+	 * Deal with the edges
+	 * @param mxCells
+	 * @param doc
+	 * @return
+	 */
 	public static ArrayList<Element> getListOfDataChannels(HashMap<String, Element> mxCells, Document doc) {
 		ArrayList<Element> dataChannels = new ArrayList<Element>();
 		Element currDataChannel = null;
@@ -443,6 +501,7 @@ public class MXGraphToSWLTranslator {
 		return dataChannels;
 	}
 
+	// skip
 	public static Document translateWorkflow(String name, Document diagram) throws Exception {
 
 		DocumentBuilderFactory fact = DocumentBuilderFactory.newInstance();
@@ -536,6 +595,7 @@ public class MXGraphToSWLTranslator {
 
 	public static ArrayList<Element> getListOfInputDPToPortMappings(HashMap<String, Element> mxCells, Document doc) throws Exception {
 		ArrayList<Element> inputDPToPortMappings = new ArrayList<Element>();
+		// traverse all values(Element)
 		for (Element mxCell : mxCells.values()) {
 			Element mapping = mxCellToInputDPToPortMapping(mxCell, mxCells, doc);
 			if (mapping != null)
@@ -545,6 +605,14 @@ public class MXGraphToSWLTranslator {
 		return inputDPToPortMappings;
 	}
 
+	/**
+	 *
+	 * @param mxCell single value(element) in the map
+	 * @param mxCells The mxCells map
+	 * @param doc	document object
+	 * @return
+	 * @throws Exception
+	 */
 	public static Element mxCellToInputDPToPortMapping(Element mxCell, HashMap<String, Element> mxCells, Document doc) throws Exception {
 		Element inputDP2PortMapping = null;
 
@@ -677,11 +745,14 @@ public class MXGraphToSWLTranslator {
 		if (!mxCell.hasAttribute("target"))
 			return false;
 
+		// 1. get the current Element's source Element
 		Element sourcePort = mxCells.get(mxCell.getAttribute("source").trim());
 
 		String sourcePortX = null;
 		Element source = null;
 		String sourceValue = null;
+
+		// TODO 这里可能需要重写 比较麻烦
 
 		if (sourcePort.getElementsByTagName("mxGeometry") != null && sourcePort.getElementsByTagName("mxGeometry").getLength() == 1)
 			sourcePortX = ((Element) sourcePort.getElementsByTagName("mxGeometry").item(0)).getAttribute("x").trim();
@@ -719,17 +790,21 @@ public class MXGraphToSWLTranslator {
 	}
 
 	public static boolean isOutputDPToPortMapping(Element mxCell, HashMap<String, Element> mxCells) {
+
+		// mxCell must have source and target
 		if (!mxCell.hasAttribute("source"))
 			return false;
 		if (!mxCell.hasAttribute("target"))
 			return false;
 
+		// get source
 		Element sourcePort = mxCells.get(mxCell.getAttribute("source").trim());
 
 		String sourcePortX = null;
 		Element source = null;
 		String sourceValue = null;
 
+		// case 1
 		if (sourcePort.getElementsByTagName("mxGeometry") != null && sourcePort.getElementsByTagName("mxGeometry").getLength() == 1)
 			sourcePortX = ((Element) sourcePort.getElementsByTagName("mxGeometry").item(0)).getAttribute("x").trim();
 
@@ -761,11 +836,22 @@ public class MXGraphToSWLTranslator {
 		return false;
 	}
 
+
+	/**
+	 * Entry of the parsing process
+	 * @param name
+	 * @param mxGraphSource
+	 * @return
+	 * @throws Exception
+	 */
 	public static Document translateExperiment(String name, Document mxGraphSource) throws Exception {
+
+		// 1. create new document
 		DocumentBuilderFactory fact = DocumentBuilderFactory.newInstance();
 		DocumentBuilder parser = fact.newDocumentBuilder();
 		Document doc = parser.newDocument();
 
+		// 2. create the tree basic configuration
 		Node experimentSpec = doc.createElement("experimentSpec");
 		doc.appendChild(experimentSpec);
 
@@ -782,20 +868,28 @@ public class MXGraphToSWLTranslator {
 
 		Node workflowInstances = doc.createElement("workflowInstances");
 
+
+		// 3. Starting parsing documents
+
+		// 3.1 get root element
 		Element rootElement = mxGraphSource.getDocumentElement();
 		HashMap<String, Element> mxCells = getMxCells(rootElement);
 
+
+		// 3.2.1 get all task, add them to the workflowInstance
 		for (Element wfInstance : getListOfWorkflowInstances(mxCells, doc))
 			workflowInstances.appendChild(wfInstance);
 
+		// 3.2.2 finished task part
 		workflowGraph.appendChild(workflowInstances);
 
+		// 3.3 deal with the edge in the workflow
 		Node dataChannels = doc.createElement("dataChannels");
 		for (Element dataChannel : getListOfDataChannels(mxCells, doc))
 			dataChannels.appendChild(dataChannel);
-		//
 		workflowGraph.appendChild(dataChannels);
 
+		// 3.4 Deal with the ports
 		Element dataProductsToPorts = doc.createElement("dataProductsToPorts");
 		workflowBody.appendChild(dataProductsToPorts);
 
@@ -807,7 +901,17 @@ public class MXGraphToSWLTranslator {
 			dataProductsToPorts.appendChild(mapping);
 		}
 
-		//System.out.println("%%%%%%% result experiment:\n" + Utility.nodeToString(doc));
+
+
+//		System.out.println("------------------------------------");
+//		System.out.println("Start!!!!!!!!!");
+//		TransformerFactory tfac = TransformerFactory.newInstance();
+//		Transformer tra = tfac.newTransformer();
+//		DOMSource doms = new DOMSource(doc);
+//		File file = new File("newStu.xml");
+//		FileOutputStream outstream = new FileOutputStream(file);
+//		StreamResult sr = new StreamResult(outstream);
+//		tra.transform(doms,sr);
 
 		return doc;
 	}
@@ -815,5 +919,10 @@ public class MXGraphToSWLTranslator {
 	public static void main(String[] args) throws Exception {
 	
 	}
+
+	/**
+	 *  tools to help traverse the document
+	 */
+
 
 }

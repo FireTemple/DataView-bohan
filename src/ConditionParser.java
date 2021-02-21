@@ -1,6 +1,8 @@
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.stream.Stream;
+
 import dataview.models.DATAVIEW_Table;
 import dataview.models.Dataview;
 
@@ -246,28 +248,45 @@ public class ConditionParser {
 		int otherPos = -1;
 		if(useRAOperator != RAOperator.select)
 			otherPos = initalTable.getColPosition(colOrVal);
-		for(List<String> tempList: initalTable.getElements()) 
+
+		// written by bohan v1
+//		initalTable.getElements().stream().forEach(row -> {
+//			if (row.get(colPos).equals(colOrVal)){
+//				table.appendRow(row);
+//			}
+//		});
+
+//		// written by bohan v2
+//		initalTable.getElements().parallelStream().forEach(row -> {
+//			if (row.get(colPos).equals(colOrVal)){
+//				table.appendRow(row);
+//			}
+//		});
+
+
+
+		for(List<String> tempList: initalTable.getElements())
 		{
 			if(useRAOperator != RAOperator.select)
 				colOrVal = tempList.get(otherPos);
 			String table1Val = tempList.get(colPos); // current value of the searching col
 
-			if(operator.contentEquals("<")) 
+			if(operator.contentEquals("<"))
 			{
 				if(Double.parseDouble(table1Val) < Double.parseDouble(colOrVal))
-					table.appendRow(tempList);	
+					table.appendRow(tempList);
 			}
-			else if(operator.contentEquals("<=")) 
+			else if(operator.contentEquals("<="))
 			{
 				if(Double.parseDouble(table1Val) <= Double.parseDouble(colOrVal))
 					table.appendRow(tempList);
 			}
-			else if(operator.contentEquals(">")) 
+			else if(operator.contentEquals(">"))
 			{
 				if(Double.parseDouble(table1Val) > Double.parseDouble(colOrVal))
 					table.appendRow(tempList);
 			}
-			else if(operator.contentEquals(">=")) 
+			else if(operator.contentEquals(">="))
 			{
 				if(Double.parseDouble(table1Val) >= Double.parseDouble(colOrVal))
 					table.appendRow(tempList);
@@ -275,7 +294,7 @@ public class ConditionParser {
 
 
 			// what we are looking for
-			else if(operator.contentEquals("==")) 
+			else if(operator.contentEquals("=="))
 			{
 				if(table1Val.contentEquals(colOrVal))
 					table.appendRow(tempList);
@@ -283,7 +302,7 @@ public class ConditionParser {
 
 
 
-			else if(operator.contentEquals("!=")) 
+			else if(operator.contentEquals("!="))
 			{
 				if(!table1Val.contentEquals(colOrVal))
 					table.appendRow(tempList);
@@ -291,6 +310,11 @@ public class ConditionParser {
 		}
 		return table;
 	}
+
+//	private DATAVIEW_Table makeTableHelper(String operator,String colName,String colValue){
+//		DATAVIEW_Table resultTable = new DATAVIEW_Table(initalTable.getHeader());
+//
+//	}
 	
 	public String getOperator(int startPos, boolean positive) 
 	{	

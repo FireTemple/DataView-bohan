@@ -1,0 +1,10 @@
+class_number,semester,ssn
+5,winter2011,4
+5,summer2018,4
+3,summer2019,5
+7,summer2018,1
+2,summer2017,2
+4,winter2010,2
+0,summer2016,1
+4,winter2018,6
+10,winter2000,9

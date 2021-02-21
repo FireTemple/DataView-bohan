@@ -1,0 +1,308 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="2" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;dataProduct /DATAVIEW-INPUT/course.txt dataType Dropbox^lt;/div^gt;" style="fillColor=#14DC4F;gradientColor=#14DC4F;opacity=100" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="220" y="134" width="80" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="3" value="^lt;div style=^quot;width:40px;height:10px;^quot;^gt;^lt;p style=^quot;font-size:11pt;height:8px;^quot;^gt;course.txt^lt;/p^gt;^lt;/div^gt;" style="opacity=0" parent="2" vertex="1" isCellSelectable="0">
+      <mxGeometry x="40" as="geometry">
+        <mxPoint x="-25" y="75" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="4" value="^lt;div style=^quot;background-color:#14DC4F;font-size:10pt;text-align:left;horizontal-align:left;^quot;^gt;Dropbox^lt;br^gt;^lt;a href=^quot;#^quot;style=^quot;background:none;text-decoration : underline;^quot; onclick=^#39;viewDataProductValue(^quot;/DATAVIEW-INPUT/course.txt^quot;)^#39;^gt;value^lt;/a^gt;" style="opacity=0" parent="2" vertex="1" connectable="0">
+      <mxGeometry x="40" y="25" as="geometry"/>
+    </mxCell>
+    <mxCell id="5" value="Port" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="2" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="6" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;dataProduct /DATAVIEW-INPUT/rename3.txt dataType Dropbox^lt;/div^gt;" style="fillColor=#14DC4F;gradientColor=#14DC4F;opacity=100" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="220" y="290" width="80" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="7" value="^lt;div style=^quot;width:40px;height:10px;^quot;^gt;^lt;p style=^quot;font-size:11pt;height:8px;^quot;^gt;rename3.txt^lt;/p^gt;^lt;/div^gt;" style="opacity=0" parent="6" vertex="1" isCellSelectable="0">
+      <mxGeometry x="40" as="geometry">
+        <mxPoint x="-25" y="75" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="8" value="^lt;div style=^quot;background-color:#14DC4F;font-size:10pt;text-align:left;horizontal-align:left;^quot;^gt;Dropbox^lt;br^gt;^lt;a href=^quot;#^quot;style=^quot;background:none;text-decoration : underline;^quot; onclick=^#39;viewDataProductValue(^quot;/DATAVIEW-INPUT/rename3.txt^quot;)^#39;^gt;value^lt;/a^gt;" style="opacity=0" parent="6" vertex="1" connectable="0">
+      <mxGeometry x="40" y="25" as="geometry"/>
+    </mxCell>
+    <mxCell id="9" value="Port" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="6" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="10" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;dataProduct /DATAVIEW-INPUT/rename3.txt dataType Dropbox^lt;/div^gt;" style="fillColor=#14DC4F;gradientColor=#14DC4F;opacity=100" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="180" y="400" width="80" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="11" value="^lt;div style=^quot;width:40px;height:10px;^quot;^gt;^lt;p style=^quot;font-size:11pt;height:8px;^quot;^gt;rename3.txt^lt;/p^gt;^lt;/div^gt;" style="opacity=0" parent="10" vertex="1" isCellSelectable="0">
+      <mxGeometry x="40" as="geometry">
+        <mxPoint x="-25" y="75" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="12" value="^lt;div style=^quot;background-color:#14DC4F;font-size:10pt;text-align:left;horizontal-align:left;^quot;^gt;Dropbox^lt;br^gt;^lt;a href=^quot;#^quot;style=^quot;background:none;text-decoration : underline;^quot; onclick=^#39;viewDataProductValue(^quot;/DATAVIEW-INPUT/rename3.txt^quot;)^#39;^gt;value^lt;/a^gt;" style="opacity=0" parent="10" vertex="1" connectable="0">
+      <mxGeometry x="40" y="25" as="geometry"/>
+    </mxCell>
+    <mxCell id="13" value="Port" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="10" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="14" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;dataProduct /DATAVIEW-INPUT/taught.txt dataType Dropbox^lt;/div^gt;" style="fillColor=#14DC4F;gradientColor=#14DC4F;opacity=100" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="230" y="520" width="80" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="15" value="^lt;div style=^quot;width:40px;height:10px;^quot;^gt;^lt;p style=^quot;font-size:11pt;height:8px;^quot;^gt;taught.txt^lt;/p^gt;^lt;/div^gt;" style="opacity=0" parent="14" vertex="1" isCellSelectable="0">
+      <mxGeometry x="40" as="geometry">
+        <mxPoint x="-25" y="75" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="16" value="^lt;div style=^quot;background-color:#14DC4F;font-size:10pt;text-align:left;horizontal-align:left;^quot;^gt;Dropbox^lt;br^gt;^lt;a href=^quot;#^quot;style=^quot;background:none;text-decoration : underline;^quot; onclick=^#39;viewDataProductValue(^quot;/DATAVIEW-INPUT/taught.txt^quot;)^#39;^gt;value^lt;/a^gt;" style="opacity=0" parent="14" vertex="1" connectable="0">
+      <mxGeometry x="40" y="25" as="geometry"/>
+    </mxCell>
+    <mxCell id="17" value="Port" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="14" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="18" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;dataProduct /DATAVIEW-INPUT/course.txt dataType Dropbox^lt;/div^gt;" style="fillColor=#14DC4F;gradientColor=#14DC4F;opacity=100" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="210" y="625" width="80" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="19" value="^lt;div style=^quot;width:40px;height:10px;^quot;^gt;^lt;p style=^quot;font-size:11pt;height:8px;^quot;^gt;course.txt^lt;/p^gt;^lt;/div^gt;" style="opacity=0" parent="18" vertex="1" isCellSelectable="0">
+      <mxGeometry x="40" as="geometry">
+        <mxPoint x="-25" y="75" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="20" value="^lt;div style=^quot;background-color:#14DC4F;font-size:10pt;text-align:left;horizontal-align:left;^quot;^gt;Dropbox^lt;br^gt;^lt;a href=^quot;#^quot;style=^quot;background:none;text-decoration : underline;^quot; onclick=^#39;viewDataProductValue(^quot;/DATAVIEW-INPUT/course.txt^quot;)^#39;^gt;value^lt;/a^gt;" style="opacity=0" parent="18" vertex="1" connectable="0">
+      <mxGeometry x="40" y="25" as="geometry"/>
+    </mxCell>
+    <mxCell id="21" value="Port" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="18" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="22" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;dataProduct /DATAVIEW-INPUT/taught.txt dataType Dropbox^lt;/div^gt;" style="fillColor=#14DC4F;gradientColor=#14DC4F;opacity=100" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="200" y="730" width="80" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="23" value="^lt;div style=^quot;width:40px;height:10px;^quot;^gt;^lt;p style=^quot;font-size:11pt;height:8px;^quot;^gt;taught.txt^lt;/p^gt;^lt;/div^gt;" style="opacity=0" parent="22" vertex="1" isCellSelectable="0">
+      <mxGeometry x="40" as="geometry">
+        <mxPoint x="-25" y="75" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="24" value="^lt;div style=^quot;background-color:#14DC4F;font-size:10pt;text-align:left;horizontal-align:left;^quot;^gt;Dropbox^lt;br^gt;^lt;a href=^quot;#^quot;style=^quot;background:none;text-decoration : underline;^quot; onclick=^#39;viewDataProductValue(^quot;/DATAVIEW-INPUT/taught.txt^quot;)^#39;^gt;value^lt;/a^gt;" style="opacity=0" parent="22" vertex="1" connectable="0">
+      <mxGeometry x="40" y="25" as="geometry"/>
+    </mxCell>
+    <mxCell id="25" value="Port" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="22" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="26" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;workflowComponent RASetDifference^lt;/div^gt;" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="1170" y="433" width="50" height="68" as="geometry"/>
+    </mxCell>
+    <mxCell id="27" value="^lt;p style=^quot;font-size:11pt;^quot;^gt;RASetDifference^lt;/p^gt;" style="opacity=0" parent="26" vertex="1">
+      <mxGeometry x="25" y="8" as="geometry">
+        <mxPoint x="-5" y="85" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="28" value="^lt;div^gt;in0^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;in0^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;align=right;imageAlign=right;spacingRight=18" parent="26" vertex="1">
+      <mxGeometry y="0.15" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="29" value="^lt;div^gt;in1^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;in1^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;align=right;imageAlign=right;spacingRight=18" parent="26" vertex="1">
+      <mxGeometry y="0.85" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="30" value="^lt;div^gt;out0^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;out0^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="26" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="31" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;workflowComponent RARename^lt;/div^gt;" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="420" y="134" width="50" height="68" as="geometry"/>
+    </mxCell>
+    <mxCell id="32" value="^lt;p style=^quot;font-size:11pt;^quot;^gt;RARename^lt;/p^gt;" style="opacity=0" parent="31" vertex="1">
+      <mxGeometry x="25" y="8" as="geometry">
+        <mxPoint x="-5" y="85" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="33" value="^lt;div^gt;in0^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;in0^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;align=right;imageAlign=right;spacingRight=18" parent="31" vertex="1">
+      <mxGeometry y="0.15" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="34" value="^lt;div^gt;in1^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;in1^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;align=right;imageAlign=right;spacingRight=18" parent="31" vertex="1">
+      <mxGeometry y="0.85" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="35" value="^lt;div^gt;out0^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;out0^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="31" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="36" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;workflowComponent RARename^lt;/div^gt;" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="480" y="367" width="50" height="68" as="geometry"/>
+    </mxCell>
+    <mxCell id="37" value="^lt;p style=^quot;font-size:11pt;^quot;^gt;RARename^lt;/p^gt;" style="opacity=0" parent="36" vertex="1">
+      <mxGeometry x="25" y="8" as="geometry">
+        <mxPoint x="-5" y="85" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="38" value="^lt;div^gt;in0^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;in0^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;align=right;imageAlign=right;spacingRight=18" parent="36" vertex="1">
+      <mxGeometry y="0.15" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="39" value="^lt;div^gt;in1^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;in1^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;align=right;imageAlign=right;spacingRight=18" parent="36" vertex="1">
+      <mxGeometry y="0.85" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="40" value="^lt;div^gt;out0^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;out0^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="36" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="41" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;workflowComponent RANaturalJoin^lt;/div^gt;" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="760" y="226" width="50" height="68" as="geometry"/>
+    </mxCell>
+    <mxCell id="42" value="^lt;p style=^quot;font-size:11pt;^quot;^gt;RANaturalJoin^lt;/p^gt;" style="opacity=0" parent="41" vertex="1">
+      <mxGeometry x="25" y="8" as="geometry">
+        <mxPoint x="-5" y="85" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="43" value="^lt;div^gt;in0^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;in0^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;align=right;imageAlign=right;spacingRight=18" parent="41" vertex="1">
+      <mxGeometry y="0.15" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="44" value="^lt;div^gt;in1^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;in1^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;align=right;imageAlign=right;spacingRight=18" parent="41" vertex="1">
+      <mxGeometry y="0.85" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="45" value="^lt;div^gt;out0^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;out0^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="41" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="46" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;workflowComponent RAProject^lt;/div^gt;" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="990" y="290" width="50" height="68" as="geometry"/>
+    </mxCell>
+    <mxCell id="47" value="^lt;p style=^quot;font-size:11pt;^quot;^gt;RAProject^lt;/p^gt;" style="opacity=0" parent="46" vertex="1">
+      <mxGeometry x="25" y="8" as="geometry">
+        <mxPoint x="-5" y="85" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="48" value="^lt;div^gt;in0^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;in0^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;align=right;imageAlign=right;spacingRight=18" parent="46" vertex="1">
+      <mxGeometry y="0.15" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="49" value="^lt;div^gt;in1^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;in1^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;align=right;imageAlign=right;spacingRight=18" parent="46" vertex="1">
+      <mxGeometry y="0.85" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="50" value="^lt;div^gt;out0^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;out0^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="46" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="51" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;dataProduct outputDP0 stubForOutputDP ^lt;/div^gt;" style="fillColor=#EDE579;gradientColor=#EDE579;opacity=100" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="1310" y="438" width="80" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="52" value="^lt;div style=^quot;^quot;^gt;^lt;p style=^quot;font-size:11pt;height:10px;^quot;^gt;outputDP0^lt;/p^gt;^lt;/div^gt;" style="opacity=0" parent="51" vertex="1" isCellSelectable="0">
+      <mxGeometry x="40" as="geometry">
+        <mxPoint y="85" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="53" value="Port" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="51" vertex="1">
+      <mxGeometry y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="54" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;dataProduct /DATAVIEW-INPUT/projectBy2.txt dataType Dropbox^lt;/div^gt;" style="fillColor=#14DC4F;gradientColor=#14DC4F;opacity=100" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="745" y="408" width="80" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="55" value="^lt;div style=^quot;width:40px;height:10px;^quot;^gt;^lt;p style=^quot;font-size:11pt;height:8px;^quot;^gt;projectBy2.txt^lt;/p^gt;^lt;/div^gt;" style="opacity=0" parent="54" vertex="1" isCellSelectable="0">
+      <mxGeometry x="40" as="geometry">
+        <mxPoint x="-25" y="75" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="56" value="^lt;div style=^quot;background-color:#14DC4F;font-size:10pt;text-align:left;horizontal-align:left;^quot;^gt;Dropbox^lt;br^gt;^lt;a href=^quot;#^quot;style=^quot;background:none;text-decoration : underline;^quot; onclick=^#39;viewDataProductValue(^quot;/DATAVIEW-INPUT/projectBy2.txt^quot;)^#39;^gt;value^lt;/a^gt;" style="opacity=0" parent="54" vertex="1" connectable="0">
+      <mxGeometry x="40" y="25" as="geometry"/>
+    </mxCell>
+    <mxCell id="57" value="Port" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="54" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="58" value="" parent="1" source="5" target="33" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="59" value="" parent="1" source="9" target="34" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="60" value="" parent="1" source="35" target="43" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="61" value="" parent="1" source="40" target="44" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="62" value="" parent="1" source="13" target="38" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="63" value="" parent="1" source="17" target="39" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="64" value="^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;workflowComponent RANaturalJoin^lt;/div^gt;" parent="1" vertex="1" connectable="0">
+      <mxGeometry x="400" y="655" width="50" height="68" as="geometry"/>
+    </mxCell>
+    <mxCell id="65" value="^lt;p style=^quot;font-size:11pt;^quot;^gt;RANaturalJoin^lt;/p^gt;" style="opacity=0" parent="64" vertex="1">
+      <mxGeometry x="25" y="8" as="geometry">
+        <mxPoint x="-5" y="85" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="66" value="^lt;div^gt;in0^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;in0^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;align=right;imageAlign=right;spacingRight=18" parent="64" vertex="1">
+      <mxGeometry y="0.15" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="67" value="^lt;div^gt;in1^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;in1^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;align=right;imageAlign=right;spacingRight=18" parent="64" vertex="1">
+      <mxGeometry y="0.85" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="68" value="^lt;div^gt;out0^lt;div style=^quot;visibility:hidden;width:0px;height:0px;^quot;^gt;out0^lt;/div^gt;^lt;/div^gt;" style="port;image=editors/images/overlays/port.png;spacingLeft=18" parent="64" vertex="1">
+      <mxGeometry x="1" y="0.5" width="8" height="8" relative="1" as="geometry">
+        <mxPoint x="-4" y="-4" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="69" value="" parent="1" source="21" target="66" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="70" value="" parent="1" source="25" target="67" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="71" value="" parent="1" source="45" target="48" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="72" value="" parent="1" source="57" target="49" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="73" value="" parent="1" source="68" target="29" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="74" value="" parent="1" source="50" target="28" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="75" value="" parent="1" source="30" target="53" edge="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>

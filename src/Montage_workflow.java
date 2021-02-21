@@ -11,7 +11,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 
 /*
- * Two parameters are used in the Montage_workflow consturction: 
+ * Two parameters are used in the Montage_workflow consturction:
  * @para The number of mProject and the number of mDiffFit
  */
 
@@ -27,7 +27,7 @@ public class Montage_workflow extends Workflow{
 
 	Montage_workflow()
 	{
-		super("Montage_workflow", "This workflow is used to benefit from the Montage workflow structure to do experiments.");	
+		super("Montage_workflow", "This workflow is used to benefit from the Montage workflow structure to do experiments.");
 		
 		wins = new Object[num_mProectPP];
 		wouts = new Object[1];

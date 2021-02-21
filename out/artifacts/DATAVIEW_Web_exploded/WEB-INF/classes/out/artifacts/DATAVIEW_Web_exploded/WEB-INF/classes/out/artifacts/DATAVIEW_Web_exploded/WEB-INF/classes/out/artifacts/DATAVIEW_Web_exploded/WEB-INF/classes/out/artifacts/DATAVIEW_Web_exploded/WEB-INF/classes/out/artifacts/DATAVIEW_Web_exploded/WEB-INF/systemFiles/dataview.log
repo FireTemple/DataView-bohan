@@ -1,0 +1,374 @@
+2021/02/06 12:46:55.880, Level: 3, We reached here:  Downloading .... /DATAVIEW/Workflows/111
+2021/02/06 12:46:55.881, Level: 3, We reached here:  Downloading .... finished
+2021/02/06 12:47:01.485, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt}
+2021/02/06 12:47:01.486, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@7b46c83d}
+2021/02/06 12:47:01.490, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/06 12:47:01.522, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/06 12:50:40.625, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt}
+2021/02/06 12:50:40.627, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@7bb9a9ef}
+2021/02/06 12:50:40.628, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/06 12:50:40.670, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/06 12:59:15.501, Level: 3, We reached here:  Downloading .... /DATAVIEW/Workflows/SD1-RENAMED
+2021/02/06 12:59:15.504, Level: 3, We reached here:  Downloading .... finished
+2021/02/06 12:59:22.583, Level: 3, We reached here:  Downloading .... /DATAVIEW/Workflows/2222222222222
+2021/02/06 12:59:22.584, Level: 3, We reached here:  Downloading .... finished
+2021/02/06 12:59:27.381, Level: 3, We reached here:  Downloading .... /DATAVIEW/Workflows/N1-P
+2021/02/06 12:59:27.382, Level: 3, We reached here:  Downloading .... finished
+2021/02/06 12:59:41.514, Level: 3, We reached here:  Downloading .... /DATAVIEW/Workflows/1-5-10-42
+2021/02/06 12:59:41.528, Level: 3, We reached here:  Downloading .... finished
+2021/02/08 14:00:19.618, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/08 14:00:19.618, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt}
+2021/02/08 14:00:19.620, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RANaturalJoin@352d1e13_0.txt}
+2021/02/08 14:00:19.620, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@4f590ce_0.txt}
+2021/02/08 14:00:19.621, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/08 14:00:19.621, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 14:00:19.626, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt}
+2021/02/08 14:00:19.641, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@4b851efa_0.txt}
+2021/02/08 14:00:19.643, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 14:00:19.650, Level: 2, Error message: You have an illegal character in a header name. The Illegal characters are :! = < > : (space) | & ( ) "
+2021/02/08 14:00:19.657, Level: 3, We reached here:  Task RARename is finished
+2021/02/08 14:00:19.687, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/08 14:05:13.511, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt}
+2021/02/08 14:05:13.512, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@18360c72_0.txt}
+2021/02/08 14:05:13.513, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 14:05:13.516, Level: 2, Error message: You have an illegal character in a header name. The Illegal characters are :! = < > : (space) | & ( ) "
+2021/02/08 14:05:13.620, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt}
+2021/02/08 14:05:13.620, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RANaturalJoin@14d587cd_0.txt}
+2021/02/08 14:05:13.621, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/08 14:05:13.658, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/08 14:05:13.733, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/08 14:05:13.733, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@519a2acb_0.txt}
+2021/02/08 14:05:13.733, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 14:05:13.737, Level: 3, We reached here:  Task RARename is finished
+2021/02/08 14:15:19.693, Level: 1, Exception: /1-5-10-42 (No such file or directory)
+2021/02/08 14:15:26.398, Level: 1, Exception: /1-5-10-42 (No such file or directory)
+2021/02/08 14:19:11.978, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/08 14:19:11.978, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt}
+2021/02/08 14:19:11.979, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt}
+2021/02/08 14:19:11.980, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@41b633ab_0.txt}
+2021/02/08 14:19:11.981, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RANaturalJoin@36eebe67_0.txt}
+2021/02/08 14:19:11.982, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 14:19:11.982, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@611cebbf_0.txt}
+2021/02/08 14:19:11.982, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/08 14:19:11.982, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 14:19:11.995, Level: 2, Error message: You have an illegal character in a header name. The Illegal characters are :! = < > : (space) | & ( ) "
+2021/02/08 14:19:12.009, Level: 3, We reached here:  Task RARename is finished
+2021/02/08 14:19:12.037, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/08 14:24:47.866, Level: 1, Exception: /1-5-10-42 (No such file or directory)
+2021/02/08 14:26:25.763, Level: 1, Exception: condition
+2021/02/08 14:28:04.979, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/08 14:28:04.980, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@73e5e1d7_0.txt}
+2021/02/08 14:28:04.981, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt}
+2021/02/08 14:28:04.982, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RANaturalJoin@2e31fabf_0.txt}
+2021/02/08 14:28:04.983, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/08 14:28:04.981, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt}
+2021/02/08 14:28:04.983, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 14:28:04.983, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@e020bd_0.txt}
+2021/02/08 14:28:04.985, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 14:28:04.989, Level: 2, Error message: You have an illegal character in a header name. The Illegal characters are :! = < > : (space) | & ( ) "
+2021/02/08 14:28:04.999, Level: 3, We reached here:  Task RARename is finished
+2021/02/08 14:28:05.037, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/08 14:35:55.401, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt}
+2021/02/08 14:35:55.401, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/08 14:35:55.403, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@5790403b_0.txt}
+2021/02/08 14:35:55.403, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@3cc0c898_0.txt}
+2021/02/08 14:35:55.404, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 14:35:55.404, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 14:35:55.407, Level: 2, Error message: You have an illegal character in a header name. The Illegal characters are :! = < > : (space) | & ( ) "
+2021/02/08 14:35:55.408, Level: 3, We reached here:  Task RARename is finished
+2021/02/08 14:35:55.426, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt}
+2021/02/08 14:35:55.427, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RANaturalJoin@12eb2c7_0.txt}
+2021/02/08 14:35:55.427, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/08 14:35:55.432, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/08 18:34:10.153, Level: 1, Exception: /Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/1-5-10-42 (No such file or directory)
+2021/02/08 18:34:11.653, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/user.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/condition.txt}
+2021/02/08 18:34:11.654, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRASelect@69842a19}
+2021/02/08 18:34:11.655, Level: 3, We reached here:  Task RASelector start to run
+2021/02/08 18:34:11.869, Level: 3, We reached here:  Task RASelector is finished
+2021/02/08 18:36:56.905, Level: 1, Exception: /Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/1-5-10-42 (No such file or directory)
+2021/02/08 18:36:58.039, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt}
+2021/02/08 18:36:58.040, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@bd7b7bc}
+2021/02/08 18:36:58.041, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/08 18:36:58.047, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/08 20:48:45.809, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/condition.txt}
+2021/02/08 20:48:45.810, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@70ee082c_0.txt}
+2021/02/08 20:48:45.811, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 20:48:45.814, Level: 2, Error message: You need to use a colonMake sure to follow the format. newName:oldName,newName:oldName
+2021/02/08 20:48:45.815, Level: 1, Exception: 1
+2021/02/08 20:48:45.852, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/08 20:48:45.853, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@10dbd943_0.txt}
+2021/02/08 20:48:45.853, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 20:48:45.855, Level: 3, We reached here:  Task RARename is finished
+2021/02/08 20:51:51.309, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/condition.txt}
+2021/02/08 20:51:51.309, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/08 20:51:51.312, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@292f99f1_0.txt}
+2021/02/08 20:51:51.312, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@7fc27dda_0.txt}
+2021/02/08 20:51:51.315, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 20:51:51.315, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 20:51:51.319, Level: 2, Error message: You need to use a colonMake sure to follow the format. newName:oldName,newName:oldName
+2021/02/08 20:51:51.320, Level: 3, We reached here:  Task RARename is finished
+2021/02/08 20:51:51.320, Level: 1, Exception: 1
+2021/02/08 21:48:49.750, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/08 21:48:49.750, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/08 21:48:49.753, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@3fd2c8a8_0.txt}
+2021/02/08 21:48:49.753, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@5b68fcb7_0.txt}
+2021/02/08 21:48:49.754, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 21:48:49.754, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 21:48:49.759, Level: 3, We reached here:  Task RARename is finished
+2021/02/08 21:48:49.759, Level: 3, We reached here:  Task RARename is finished
+2021/02/08 21:48:49.761, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@5b68fcb7_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@3fd2c8a8_0.txt}
+2021/02/08 21:48:49.761, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@772680f3}
+2021/02/08 21:48:49.762, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/08 21:48:49.769, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/08 21:49:22.822, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/08 21:49:22.824, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/08 21:49:22.824, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@61e1a15c_0.txt}
+2021/02/08 21:49:22.824, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@15dfc80c_0.txt}
+2021/02/08 21:49:22.824, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 21:49:22.829, Level: 3, We reached here:  Task RARename is finished
+2021/02/08 21:49:22.831, Level: 3, We reached here:  Task RARename start to run
+2021/02/08 21:49:22.833, Level: 3, We reached here:  Task RARename is finished
+2021/02/08 21:49:22.837, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@15dfc80c_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@61e1a15c_0.txt}
+2021/02/08 21:49:22.837, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@283f5ac2}
+2021/02/08 21:49:22.838, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/08 21:49:22.840, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/09 09:58:55.526, Level: 1, Exception: /Users/bohanxiao/Downloads/555.xml (No such file or directory)
+2021/02/09 09:59:18.879, Level: 1, Exception: /Users/bohanxiao/Downloads/555.xml (No such file or directory)
+2021/02/09 10:00:00.968, Level: 1, Exception: /Users/bohanxiao/Downloads/555.xml (No such file or directory)
+2021/02/09 10:00:32.489, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/09 10:00:32.490, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@35847978_0.txt}
+2021/02/09 10:00:32.491, Level: 3, We reached here:  Task RARename start to run
+2021/02/09 10:00:32.493, Level: 3, We reached here:  Task RARename is finished
+2021/02/09 10:00:32.561, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/09 10:00:32.562, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@7c706b5f_0.txt}
+2021/02/09 10:00:32.563, Level: 3, We reached here:  Task RARename start to run
+2021/02/09 10:00:32.566, Level: 3, We reached here:  Task RARename is finished
+2021/02/09 10:00:32.567, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@35847978_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@7c706b5f_0.txt}
+2021/02/09 10:00:32.567, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RANaturalJoin@11676744_0.txt}
+2021/02/09 10:00:32.568, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/09 10:00:32.574, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/09 10:00:33.225, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RANaturalJoin@11676744_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/projectBy2.txt}
+2021/02/09 10:00:33.225, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRAProject@736ee35d}
+2021/02/09 10:00:33.226, Level: 3, We reached here:  Task RAProjector Project start to run
+2021/02/09 10:00:33.231, Level: 3, We reached here:  Task RAProjector Project is finished
+2021/02/12 13:01:14.237, Level: 1, Exception: /Users/bohanxiao/Downloads/1.xml (No such file or directory)
+2021/02/12 13:05:26.921, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 13:05:26.922, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@6e274211_0.txt}
+2021/02/12 13:05:26.923, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 13:05:26.937, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 13:05:27.695, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 13:05:27.695, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@189ecb03_0.txt}
+2021/02/12 13:05:27.695, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 13:05:27.695, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 13:05:27.696, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@6e274211_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@189ecb03_0.txt}
+2021/02/12 13:05:27.696, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@44a96b4d}
+2021/02/12 13:05:27.696, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 13:05:27.698, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 13:15:49.988, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 13:15:49.988, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 13:15:49.989, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@1edf199a_0.txt}
+2021/02/12 13:15:49.990, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@705d9c73_0.txt}
+2021/02/12 13:15:49.990, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 13:15:49.990, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 13:15:49.992, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 13:15:49.992, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 13:15:49.992, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@705d9c73_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@1edf199a_0.txt}
+2021/02/12 13:15:49.992, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@67e09dfd}
+2021/02/12 13:15:49.992, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 13:15:49.993, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 13:34:07.325, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 13:34:07.327, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@37b9340d_0.txt}
+2021/02/12 13:34:07.328, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 13:34:07.331, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 13:34:07.423, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 13:34:07.423, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@da8efbb_0.txt}
+2021/02/12 13:34:07.424, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 13:34:07.427, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 13:34:07.428, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@da8efbb_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@37b9340d_0.txt}
+2021/02/12 13:34:07.429, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@1227f816}
+2021/02/12 13:34:07.430, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 13:34:07.433, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 14:16:19.177, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:16:19.178, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:16:19.178, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@4fc7d886_0.txt}
+2021/02/12 14:16:19.179, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@2921acb4_0.txt}
+2021/02/12 14:16:19.179, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:16:19.179, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:16:19.183, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:16:19.185, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:16:19.186, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@2921acb4_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@4fc7d886_0.txt}
+2021/02/12 14:16:19.187, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@5ac49d77}
+2021/02/12 14:16:19.187, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 14:16:19.196, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 14:32:39.379, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:32:39.381, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@3f3b657_0.txt}
+2021/02/12 14:32:39.382, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:32:39.387, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:32:39.445, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:32:39.445, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@20cdf245_0.txt}
+2021/02/12 14:32:39.446, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:32:39.449, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:32:39.450, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@3f3b657_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@20cdf245_0.txt}
+2021/02/12 14:32:39.450, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@558c05df}
+2021/02/12 14:32:39.451, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 14:32:39.465, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 14:33:40.922, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:33:40.924, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@49b699b_0.txt}
+2021/02/12 14:33:40.927, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:33:40.931, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:33:40.970, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:33:40.971, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@565fa940_0.txt}
+2021/02/12 14:33:40.971, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:33:40.977, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:33:40.978, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@49b699b_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@565fa940_0.txt}
+2021/02/12 14:33:40.978, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@7510a350}
+2021/02/12 14:33:40.979, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 14:33:40.981, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 14:40:38.822, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:40:38.824, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@47585e40_0.txt}
+2021/02/12 14:40:38.825, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:40:38.828, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:40:38.928, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:40:38.929, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@6eabaeab_0.txt}
+2021/02/12 14:40:38.930, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:40:38.932, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:40:38.934, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@47585e40_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@6eabaeab_0.txt}
+2021/02/12 14:40:38.935, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@428ccc6f}
+2021/02/12 14:40:38.936, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 14:40:38.940, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 14:41:47.746, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:41:47.747, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@33d7e54c_0.txt}
+2021/02/12 14:41:47.747, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:41:47.749, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:41:47.840, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:41:47.840, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@298f83e4_0.txt}
+2021/02/12 14:41:47.842, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:41:47.844, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:41:47.845, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@298f83e4_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@33d7e54c_0.txt}
+2021/02/12 14:41:47.845, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@62b22df9}
+2021/02/12 14:41:47.846, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 14:41:47.849, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 14:44:33.381, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:44:33.382, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@6b43e1e0_0.txt}
+2021/02/12 14:44:33.383, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:44:33.386, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:44:33.391, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:44:33.391, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@7e49e68a_0.txt}
+2021/02/12 14:44:33.392, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:44:33.394, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:44:33.395, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@7e49e68a_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@6b43e1e0_0.txt}
+2021/02/12 14:44:33.395, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@525f0b9d}
+2021/02/12 14:44:33.395, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 14:44:33.398, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 14:46:53.806, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:46:53.807, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@3842cc1f_0.txt}
+2021/02/12 14:46:53.807, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:46:53.809, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:46:54.122, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 14:46:54.122, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@3b3f06c9_0.txt}
+2021/02/12 14:46:54.122, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 14:46:54.124, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 14:46:54.124, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@3b3f06c9_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@3842cc1f_0.txt}
+2021/02/12 14:46:54.124, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@2c784a2f}
+2021/02/12 14:46:54.125, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 14:46:54.126, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 18:11:53.996, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 18:11:53.998, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 18:11:53.998, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@e035bdf_0.txt}
+2021/02/12 18:11:53.999, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@858d0a4_0.txt}
+2021/02/12 18:11:53.999, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 18:11:54.001, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 18:11:54.000, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 18:11:54.003, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 18:11:54.004, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@858d0a4_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@e035bdf_0.txt}
+2021/02/12 18:11:54.004, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@6f67b23a}
+2021/02/12 18:11:54.005, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 18:11:54.010, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 18:13:07.808, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 18:13:07.809, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@4ed34d6a_0.txt}
+2021/02/12 18:13:07.811, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 18:13:07.816, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 18:13:07.923, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 18:13:07.926, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@51fb8e72_0.txt}
+2021/02/12 18:13:07.927, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 18:13:07.930, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 18:13:07.932, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@4ed34d6a_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@51fb8e72_0.txt}
+2021/02/12 18:13:07.933, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@6c76ac08}
+2021/02/12 18:13:07.934, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 18:13:07.937, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 19:37:53.126, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt}
+2021/02/12 19:37:53.127, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRARename@376ea9f8}
+2021/02/12 19:37:53.127, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 19:37:53.130, Level: 2, Error message: You have an illegal character in a header name. The Illegal characters are :! = < > : (space) | & ( ) "
+2021/02/12 19:39:45.782, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 19:39:45.783, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRARename@5ac49d77}
+2021/02/12 19:39:45.785, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 19:39:45.791, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 19:55:44.894, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 19:55:44.896, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@2f069463_0.txt}
+2021/02/12 19:55:44.897, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 19:55:44.897, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 19:55:44.898, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@44a96b4d_0.txt}
+2021/02/12 19:55:44.899, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 19:55:44.900, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 19:55:44.902, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 19:55:44.903, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@44a96b4d_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@2f069463_0.txt}
+2021/02/12 19:55:44.903, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@5965f554}
+2021/02/12 19:55:44.904, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 19:55:44.911, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 19:56:02.039, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 19:56:02.040, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@3856bea4_0.txt}
+2021/02/12 19:56:02.040, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 19:56:02.042, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 19:56:02.098, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 19:56:02.099, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@7ab8ac79_0.txt}
+2021/02/12 19:56:02.099, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 19:56:02.101, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 19:56:02.102, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@7ab8ac79_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@3856bea4_0.txt}
+2021/02/12 19:56:02.102, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@cde93ed}
+2021/02/12 19:56:02.103, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 19:56:02.105, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 19:56:34.195, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 19:56:34.195, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 19:56:34.198, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@7a68acbc_0.txt}
+2021/02/12 19:56:34.198, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@69842a19_0.txt}
+2021/02/12 19:56:34.199, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 19:56:34.199, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 19:56:34.201, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 19:56:34.201, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 19:56:34.202, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@7a68acbc_0.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/RARename@69842a19_0.txt}
+2021/02/12 19:56:34.203, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRANaturalJoin@3d50e504}
+2021/02/12 19:56:34.203, Level: 3, We reached here:  Task RA Natural Join start to run
+2021/02/12 19:56:34.205, Level: 3, We reached here:  Task RA Natural Join is finished
+2021/02/12 20:09:49.472, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 20:09:49.472, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRARename@3272e7ad}
+2021/02/12 20:09:49.473, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 20:09:49.494, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 20:10:11.100, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 20:10:11.102, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRARename@6e2f27be}
+2021/02/12 20:10:11.103, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 20:10:11.105, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 20:12:25.429, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/taught.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 20:12:25.431, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRARename@72c4a269}
+2021/02/12 20:12:25.431, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 20:12:25.433, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 20:12:46.275, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/12 20:12:46.275, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRARename@2b966e66}
+2021/02/12 20:12:46.276, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 20:12:46.277, Level: 3, We reached here:  Task RARename is finished
+2021/02/12 21:25:44.028, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt}
+2021/02/12 21:25:44.029, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRARename@3f24706e}
+2021/02/12 21:25:44.030, Level: 3, We reached here:  Task RARename start to run
+2021/02/12 21:25:44.030, Level: 2, Error message: You have an illegal character in a header name. The Illegal characters are :! = < > : (space) | & ( ) "
+2021/02/14 12:38:17.282, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/14 12:38:17.283, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRARename@2e6191a8}
+2021/02/14 12:38:17.284, Level: 3, We reached here:  Task RARename start to run
+2021/02/14 12:38:17.288, Level: 3, We reached here:  Task RARename is finished
+2021/02/20 14:28:42.473, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/20 14:28:42.475, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRARename@376ea9f8}
+2021/02/20 14:28:42.476, Level: 3, We reached here:  Task RARename start to run
+2021/02/20 14:28:42.482, Level: 3, We reached here:  Task RARename is finished
+2021/02/20 14:29:36.750, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/course.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/rename3.txt}
+2021/02/20 14:29:36.751, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRARename@3d0647c7}
+2021/02/20 14:29:36.751, Level: 3, We reached here:  Task RARename start to run
+2021/02/20 14:29:36.753, Level: 3, We reached here:  Task RARename is finished

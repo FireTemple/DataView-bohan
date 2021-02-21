@@ -221,9 +221,9 @@ public class WorkflowExecutor_Beta extends WorkflowExecutor {
 	 * If the parent task and child task are submitted in different threads, signal needs to be communicated between two threads.
 	 * 
 	 * To illustrate how a LocalScheduleRun interacts with other parallel LocalScheduleRun and the corresponding TaskExecutor, consider 
-	 * three tasks T1, T2 and T3, in which T1 and T2 are two consective tasks controlled by LocalScheduleRunA and are assigned to 
+	 * three tasks T1, T2 and T3, in which T1 and T2 are two consective tasks controlled by LocalScheduleRunA and are assigned to
 	 * virtual machine VM1, and T3 is another task that is controlled by LocalScheduleRunB and assigned to VM instance VM2.
-	 * The outputs of T1 and T3 are the inputs for T2. 
+	 * The outputs of T1 and T3 are the inputs for T2.
 	 *  
 	 */
 	public class LocalScheduleRun extends Thread {

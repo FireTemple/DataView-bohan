@@ -155,7 +155,7 @@ public class DATAVIEW_BigFile {
 		try {
 			br = new BufferedReader(new FileReader(file));
 			while((line = br.readLine()) != null) {
-				sb.append(line+"\n"); // ????
+				sb.append(line+"\n");
 			} 
 			br.close();
 		}

@@ -22,8 +22,6 @@ import usermgmt.Encrypt;
 
 public class ReadAndWrite {
 	// Write the dropbox token into a file
-
-	
 	public static void write(String filename, String userId, String token, int index){
 		File src = new File(filename);
 		File dest = new File(filename + ".bak");
@@ -223,7 +221,8 @@ public class ReadAndWrite {
 		try {
 			in = new FileInputStream(filename);
 			lock = in.getChannel().lock(0L, Long.MAX_VALUE, true);
-			 br = new BufferedReader(new InputStreamReader(in));
+			br = new BufferedReader(new InputStreamReader(in));
+
 			while((information = br.readLine())!=null){
 				String[] informationItem = information.split(",");
 				if (informationItem[1].equals(userId)&&informationItem.length > i) {

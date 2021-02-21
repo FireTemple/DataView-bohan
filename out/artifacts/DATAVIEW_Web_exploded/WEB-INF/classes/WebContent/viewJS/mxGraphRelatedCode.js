@@ -162,8 +162,7 @@ function makeTaskDraggable(jsonMetadata){
 	var blockWidth = 50;
 	var blockHeight = 60;
 	var graph = graphG;
-	
-	
+
 	var functToDragTask = function(graph, evt, cell, x, y) {
 			blockWidth = 50;
 			blockHeight = 60;

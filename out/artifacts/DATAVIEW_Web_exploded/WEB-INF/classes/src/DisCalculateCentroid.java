@@ -1,5 +1,3 @@
-import java.io.*;
-import java.util.Vector;
 import dataview.models.*;
 
 public class DisCalculateCentroid extends Task{
