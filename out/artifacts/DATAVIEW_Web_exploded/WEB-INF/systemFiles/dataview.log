@@ -549,3 +549,7 @@
 2021/02/21 01:12:18.707, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRARename@699b6d29}
 2021/02/21 01:12:18.708, Level: 3, We reached here:  Task RARename start to run
 2021/02/21 01:12:18.712, Level: 3, We reached here:  Task RARename is finished
+2021/02/22 09:32:31.493, Level: 3, The value for variable/object: the inputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/user.txt, 1=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/condition.txt}
+2021/02/22 09:32:31.495, Level: 3, The value for variable/object: the outputportAndFile value is  is {0=/Users/bohanxiao/Downloads/DATAVIEW-master/DATAVIEW/out/artifacts/DATAVIEW_Web_exploded/WEB-INF/systemFiles/gk6511@wayne.edu/outputDP0.txtRASelect@283f5ac2}
+2021/02/22 09:32:31.496, Level: 3, We reached here:  Task RASelector start to run
+2021/02/22 09:32:31.728, Level: 3, We reached here:  Task RASelector is finished

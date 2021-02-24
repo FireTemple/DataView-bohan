@@ -86,7 +86,7 @@ public class UserRegisterServlet extends HttpServlet {
 
 			response.setCharacterEncoding("UTF-8");
 			response.setContentType("application/json; charset=utf-8");
-			String jsonStr = "{\"message\":\"\",\"user already exist\":\"100001\"}";
+			String jsonStr = "{\"message\":\"user already exist\",\"code\":\"100001\"}";
 			PrintWriter out = null;
 			try {
 				out = response.getWriter();
