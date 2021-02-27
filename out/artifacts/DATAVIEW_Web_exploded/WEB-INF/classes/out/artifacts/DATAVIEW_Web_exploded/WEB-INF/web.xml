@@ -36,12 +36,12 @@
 
     <servlet>
         <display-name>toNewWorkbench</display-name>
-        <servlet-name>toNewWorkbench</servlet-name>
+        <servlet-name>toNewWorkbenchServlet</servlet-name>
         <servlet-class>com.bohan.controller.IndexServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>UserLoginServlet</servlet-name>
-        <url-pattern>/UserLogin</url-pattern>
+        <servlet-name>toNewWorkbenchServlet</servlet-name>
+        <url-pattern>/toNewWorkbench</url-pattern>
     </servlet-mapping>
 
     <!-- created by bohan -->
@@ -57,9 +57,9 @@
 
 
     <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
-        <welcome-file>login.jsp</welcome-file>
 <!--        <welcome-file>index.html</welcome-file>-->
+        <welcome-file>login.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
         <welcome-file>index.jsp</welcome-file>
         <welcome-file>default.html</welcome-file>
         <welcome-file>default.htm</welcome-file>
