@@ -42,7 +42,7 @@ public class Test {
 		//int whichplanner = WorkflowPlanner.WorkflowPlanner_LPOD;
 		//int whichplanner =  WorkflowPlanner.WorkflowPlanner_Naive1;
 		int whichplanner =  WorkflowPlanner.WorkflowPlanner_T_Cluster;
-		String configurefileLocation = System.getProperty("user.dir") + File.separator + "WebContent" +File.separator+"workflowLibDir"+ File.separator ;
+		String configurefileLocation = System.getProperty("user.dir") + File.separator + "workbench" +File.separator+"workflowLibDir"+ File.separator ;
 		
 		WorkflowPlanner wp = null;
 		switch (whichplanner) {
@@ -74,7 +74,7 @@ public class Test {
 		// step 5: select a workflow executor 
 		
 		
-		String fileLocation = System.getProperty("user.dir") + File.separator + "WebContent" +File.separator;
+		String fileLocation = System.getProperty("user.dir") + File.separator + "workbench" +File.separator;
 		
 		
 		int whichexecutor = WorkflowExecutor.WorkflowExecutor_Beta;
