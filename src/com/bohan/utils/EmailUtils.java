@@ -88,8 +88,8 @@ public class EmailUtils {
 
 
     public static void main(String[] args) {
-
-    }//原文出自【易百教程】，商业转载请联系作者获得授权，非商业请保留原文链接：https://www.yiibai.com/javamail_api/javamail_api_gmail_smtp_server.html
+        String ranDum = sendEmail("asda", "bohan.neal@gmail.com");
+    }
 
 
 

@@ -27,9 +27,7 @@ public class ForGotPasswordServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String email = req.getParameter("email");
         String validation = EmailUtils.sendEmail("", email);
-
         HttpSession session = req.getSession(true);
         session.setAttribute("validation", validation);
-
     }
 }

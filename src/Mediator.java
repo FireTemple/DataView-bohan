@@ -848,10 +848,11 @@ public class Mediator extends HttpServlet {
         }
 
         System.out.println("The name of the file that about to download:" + fileName);
-
-        // check if this file is already downloaded before
+        System.out.println(fileLocation + File.separator + filename);
+        // check if this file is already downloaded before or if it is a output request
         if (!new File(fileLocation + File.separator + filename).exists()) {
-            filename = (String) outputMapping.get(filename);
+            // if it is output then use map, if is not then remain the same
+            filename = (String) outputMapping.get(filename) == null ? fileName : outputMapping.get(filename);
             System.out.println("This is the file name: " + filename);
         }
         String localFileAbsolutePath = fileLocation + File.separator + filename;

@@ -4,8 +4,7 @@
          id="WebApp_ID" version="3.0">
     <display-name>dataview-cloud</display-name>
     <servlet>
-        <description>
-        </description>
+        <description></description>
         <display-name>Mediator</display-name>
         <servlet-name>Mediator</servlet-name>
         <servlet-class>Mediator</servlet-class>
@@ -14,6 +13,7 @@
         <servlet-name>Mediator</servlet-name>
         <url-pattern>/Mediator</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <display-name>UserRegister</display-name>
         <servlet-name>UserRegisterServlet</servlet-name>
@@ -23,11 +23,13 @@
         <servlet-name>UserRegisterServlet</servlet-name>
         <url-pattern>/UserReg</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <display-name>UserLogin</display-name>
         <servlet-name>UserLoginServlet</servlet-name>
         <servlet-class>usermgmt.UserLoginServlet</servlet-class>
     </servlet>
+
     <servlet-mapping>
         <servlet-name>UserLoginServlet</servlet-name>
         <url-pattern>/UserLogin</url-pattern>
@@ -39,6 +41,7 @@
         <servlet-name>toNewWorkbenchServlet</servlet-name>
         <servlet-class>com.bohan.controller.IndexServlet</servlet-class>
     </servlet>
+
     <servlet-mapping>
         <servlet-name>toNewWorkbenchServlet</servlet-name>
         <url-pattern>/toNewWorkbench</url-pattern>
@@ -50,6 +53,7 @@
         <servlet-name>GetDropBoxListsServlet</servlet-name>
         <servlet-class>com.bohan.controller.GetDropBoxListsServlet</servlet-class>
     </servlet>
+
     <servlet-mapping>
         <servlet-name>GetDropBoxListsServlet</servlet-name>
         <url-pattern>/listDropbox</url-pattern>
@@ -64,5 +68,8 @@
         <welcome-file>default.html</welcome-file>
         <welcome-file>default.htm</welcome-file>
         <welcome-file>default.jsp</welcome-file>
+
     </welcome-file-list>
+
+
 </web-app>

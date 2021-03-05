@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DATAVIEW:Web">
+    <output-path>$PROJECT_DIR$/out/artifacts/DATAVIEW_Web</output-path>
+    <root id="archive" name="DATAVIEW_Web.war">
+      <element id="artifact" artifact-name="DATAVIEW:Web exploded" />
+    </root>
+  </artifact>
+</component>

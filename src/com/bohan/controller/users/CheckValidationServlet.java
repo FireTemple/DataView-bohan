@@ -14,6 +14,7 @@ import java.io.PrintWriter;
  * @Data 2/27/21 1:09 AM
  * @Version 1.0
  **/
+
 public class CheckValidationServlet extends HttpServlet {
 
     @Override
@@ -28,6 +29,7 @@ public class CheckValidationServlet extends HttpServlet {
         resp.setCharacterEncoding("UTF-8");
         resp.setContentType("application/json; charset=utf-8");
         String jsonStr = null;
+
         if (validation.equals(validationInSession)){
             jsonStr = "{\"msg\":\"information correct\",\"code\":\"0\"}";
         }else {
@@ -45,5 +47,6 @@ public class CheckValidationServlet extends HttpServlet {
                 out.close();
             }
         }
+        
     }
 }

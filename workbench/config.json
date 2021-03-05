@@ -3,7 +3,6 @@
     "WorkflowInputDir_DropboxFileSystem": "",
     "WorkflowOutputDir_DropboxFileSystem": ""
   },
-
   "LocalStorage": {
     "workflowTaskDir":"",
     "workflowLibdir":""
@@ -44,7 +43,6 @@
       {
         "SGX": "172.30.18.187"
       }
-
     ]
   }
 }
