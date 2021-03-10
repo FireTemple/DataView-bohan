@@ -227,6 +227,10 @@ public class ReadAndWrite {
 				String[] informationItem = information.split(",");
 				if (informationItem[1].equals(userId)&&informationItem.length > i) {
 					token =  informationItem[i];
+					// if token is "no", it means this is a default value.
+					if (token.equals("no")){
+						return null;
+					}
 					token = encrypt.decrypt(token);
 				}
 			}

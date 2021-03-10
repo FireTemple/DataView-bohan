@@ -2,23 +2,24 @@ package com.bohan.controller.users;
 
 import com.bohan.utils.R;
 import com.google.gson.Gson;
+import dataview.models.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * @ClassName CheckValidationServlet
- * @Description The method will check the validation code in "forget password" action
+ * @ClassName ChangePasswordServlet
+ * @Description This method is for reset password after user passed the email validation
  * @Author bohanxiao
- * @Data 2/27/21 1:09 AM
+ * @Data 3/5/21 4:18 PM
  * @Version 1.0
  **/
-
-public class CheckValidationServlet extends HttpServlet {
+public class ChangePasswordServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -27,24 +28,26 @@ public class CheckValidationServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // get email & new password
+        String email = req.getParameter("email");
+        String newPassword = req.getParameter("newPassword");
 
-        // get validation from front-end and session
-        String validation = req.getParameter("validation");
-        String validationInSession = (String)req.getSession().getAttribute("validation");
+        // do reset
+        String tableLocation = getServletContext().getRealPath(req.getServletPath().replace("resetPassword", ""))+ "WEB-INF" + File.separator + "systemFiles" + File.separator + "users.table";
+        boolean isSuccess = User.resetPassword(email, newPassword, tableLocation);
 
-
-        // check if the validation code is matched
-        R result = null;
-        if (validation.equals(validationInSession)){
-            result = R.ok();
-        }else {
-            result = R.error("validation code is incorrect or is expired, please try again");
-        }
-
+        // return message and code
         resp.setCharacterEncoding("UTF-8");
         resp.setContentType("application/json; charset=utf-8");
-        PrintWriter out = null;
+        R result = null;
+        if (isSuccess) {
+            result = R.ok();
+        }else {
+            result = R.error(10004,"An error happened，please try again!");
+        }
+
         Gson gson = new Gson();
+        PrintWriter out = null;
         try {
             out = resp.getWriter();
             out.write(gson.toJson(result));
@@ -55,6 +58,5 @@ public class CheckValidationServlet extends HttpServlet {
                 out.close();
             }
         }
-        
     }
 }

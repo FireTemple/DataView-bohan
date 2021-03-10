@@ -77,11 +77,7 @@ public class UserLoginServlet extends HttpServlet {
      			HttpSession session = request.getSession(true);
      			session.setAttribute("UserID", emailId);
 
-//     			getServletConfig().getServletContext().getRequestDispatcher(
-//     			        "/workflow.jsp").forward(request,response);
 
-
-				// TODO ready to go
 				response.setCharacterEncoding("UTF-8");
 				response.setContentType("application/json; charset=utf-8");
 				String jsonStr = "{\"username\":\""+emailId+"\",\"code\":\"0\"}";
@@ -127,7 +123,7 @@ public class UserLoginServlet extends HttpServlet {
      	}
      	catch(Exception e)
      	{
-     		System.out.println(e.toString());
+     		e.printStackTrace();
      	}
 
 	}

@@ -12,6 +12,7 @@ import javax.crypto.spec.DESedeKeySpec;
 
 import com.bohan.entities.DiagramStr;
 import com.bohan.utils.ParseXMLUtil;
+import com.bohan.utils.R;
 import com.google.gson.Gson;
 import net.sf.json.groovy.GJson;
 import org.apache.commons.codec.binary.Base64;
@@ -85,7 +86,6 @@ public class Mediator extends HttpServlet {
     ;
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws Exception, ServletException, IOException {
-        System.out.println("start process request ----");
         System.out.println("api url: " + request.getRequestURL());
         response.setContentType("text/plain");
         String path = getServletContext().getRealPath(request.getServletPath()).replace("Mediator", "") + "WEB-INF" + File.separator + "systemFiles" + File.separator;
@@ -132,7 +132,6 @@ public class Mediator extends HttpServlet {
             getPortsNumber(request.getParameter("filename"), response, request);
             // Retrieve the output information from web bench
         } else if (action.equals("getData")) {
-            System.out.println(request.getParameter("dataName"));
             getData(request.getParameter("dataName"), response, request);
             // Store the AWS EC2 accesskey and secretkey
         } else if (action.equals("loadCloudSettings")) {
@@ -141,7 +140,6 @@ public class Mediator extends HttpServlet {
         } else if (action.equals("getCloudSettingDetails")) {
             getCloudSettingsDetail(request.getParameter("userId"), response);
         } else if (action.equals("stopVMs")) {
-            System.out.println("This is the VM termination section");
             stopVMs(request.getParameter("userID"), response);
         } else if (action.equals("serverRunWorkflows")) {
             /**
@@ -150,7 +148,6 @@ public class Mediator extends HttpServlet {
              *      name: workflow name
              *      userID: current user
              */
-            System.out.println("Run Workflow in local");
             serverRunWorkflows(request.getParameter("userID"), request.getParameter("name"), response);
         } else if (action.equals("createTree")) {
 
@@ -173,8 +170,6 @@ public class Mediator extends HttpServlet {
     }
 
     public void createTree(String FileName, String dropboxToken, HttpServletResponse response) {
-        System.out.println(FileName);
-        System.out.println(dropboxToken);
         JSONArray treeNode = new JSONArray();
         String parentFileName = "";
         if (!FileName.equals("dropbox")) {
@@ -182,7 +177,6 @@ public class Mediator extends HttpServlet {
         }
         try {
             treeNode = dropboxRetrieve(parentFileName, dropboxToken);
-            System.out.println(treeNode);
             response.setContentType("application/json");
             response.getWriter().print(treeNode);
         } catch (ListFolderErrorException e) {
@@ -299,7 +293,6 @@ public class Mediator extends HttpServlet {
         json.put("secretKey", secretKey);
         JSONObject result = new JSONObject();
         result.put("cloudSettinglist", json);
-        System.out.println(result.toString(4));
         PrintWriter out = response.getWriter();
         out.println(json.toString(4));
     }
@@ -323,12 +316,9 @@ public class Mediator extends HttpServlet {
      * Create a folder named with the user ID (unique) to store user's task files and workflow mxgraph files
      */
     public void initializeUserFolder(HttpServletRequest request, HttpServletResponse response) {
-        System.out.println("In the initializaUserFolder " + outputMapping);
         fileLocation = getServletContext().getRealPath(request.getServletPath()).replace("Mediator", "") + "WEB-INF" + File.separator + "systemFiles" + File.separator + strUser;
         tableLocation = getServletContext().getRealPath(request.getServletPath()).replace("Mediator", "") + "WEB-INF" + File.separator + "systemFiles" + File.separator;
-        System.out.println(tableLocation);
         File file = new File(fileLocation);
-        System.out.println(fileLocation);
         if (!file.exists()) {
             if (file.mkdir()) {
                 System.out.println("Directory is created!");
@@ -364,6 +354,9 @@ public class Mediator extends HttpServlet {
 
         // 1. gat token by user Id
         token = ReadAndWrite.read(tableLocation + "users.table", strUser, 6);
+        if (token == null){
+            token = "och0ZKsRoBAAAAAAAAAAATiBPWW-5_oG4541YWGTL9EhII0HymldeU7HfgWbWE1p";
+        }
         // 2. do config for Dbx
         DbxRequestConfig config = new DbxRequestConfig("en_US");
         // 3. create the client by using SDK
@@ -409,22 +402,27 @@ public class Mediator extends HttpServlet {
      * @throws Exception
      */
     public void loadDropboxKey(String userId, String token, HttpServletResponse response, HttpServletRequest request) throws Exception {
-        if (token != null && token != "") {
-            ReadAndWrite.write(tableLocation + "users.table", userId, token, 6);
+        // previous version add
+        if (token != null && !token.equals("")) {
+            if (userId == null){
+
+            }else {
+                ReadAndWrite.write(tableLocation + "users.table", userId, token, 6);
+            }
         } else {
             token = ReadAndWrite.read(tableLocation + "users.table", userId, 6);
         }
-
         // when finished, upload the user file
+        R result = null;
+        Gson gson = new Gson();
         initializeUserFolder(request, response);
-
+        result = R.ok();
         response.setCharacterEncoding("UTF-8");
         response.setContentType("application/json; charset=utf-8");
-        String jsonStr = "{\"msg\":\"set successfully\",\"code\":\"0\"}";
         PrintWriter out = null;
         try {
             out = response.getWriter();
-            out.write(jsonStr);
+            out.write(gson.toJson(result));
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -503,6 +501,9 @@ public class Mediator extends HttpServlet {
         }
         // 5. get token and Execute the workflow
         token = ReadAndWrite.read(tableLocation + "users.table", strUser, 6);
+        if (token == null){
+            token = "och0ZKsRoBAAAAAAAAAAATiBPWW-5_oG4541YWGTL9EhII0HymldeU7HfgWbWE1p";
+        }
         WorkflowExecutor we = new WorkflowExecutor_Local(fileLocation + File.separator, fileLocation + File.separator, token, gsch);
         try {
             we.execute();
@@ -595,7 +596,6 @@ public class Mediator extends HttpServlet {
      */
     public void overwriteAndSave(String name, String diagramStr, HttpServletResponse response) throws Exception {
         System.out.println("--------------------------------------------------------------------");
-        System.out.println("diagramStr:" + diagramStr);
         token = ReadAndWrite.read(tableLocation + "users.table", strUser, 6);
         DbxRequestConfig config = new DbxRequestConfig("en_US");
         DbxClientV2 client = new DbxClientV2(config, token);
@@ -628,7 +628,6 @@ public class Mediator extends HttpServlet {
     public void getWorkflowDiagram(String filename, HttpServletResponse response) throws Exception {
         String workflowfilename = filename.substring(filename.lastIndexOf("/") + 1);
         String localFileAbsolutePath = fileLocation + File.separator + workflowfilename;
-        System.out.println(localFileAbsolutePath);
 
         if (!new File(localFileAbsolutePath).exists()) {
             token = ReadAndWrite.read(tableLocation + "users.table", strUser, 6);
@@ -670,10 +669,8 @@ public class Mediator extends HttpServlet {
         JSONObject json = new JSONObject();
         json.put("token", token);
         JSONObject result = new JSONObject();
-        System.out.println(result);
         result.put("dropboxlist", json);
 //        System.out.println("result:"+result);
-        System.out.println(result.toString(4));
         PrintWriter out = response.getWriter();
         out.println(json.toString(4));
     }
@@ -693,11 +690,14 @@ public class Mediator extends HttpServlet {
             initializeUserFolder(request, response);
         }
         String localFileAbsolutePath = fileLocation + File.separator + task;
-        System.out.println("The localFileAbsolutePath:" + localFileAbsolutePath);
         String Location;
         // check if need to download the task
         if (!new File(localFileAbsolutePath).exists()) {
             token = ReadAndWrite.read(tableLocation + "users.table", strUser, 6);
+            // set token to default if user is using default token.
+            if (token == null || token.equals("no")) {
+                token = "och0ZKsRoBAAAAAAAAAAATiBPWW-5_oG4541YWGTL9EhII0HymldeU7HfgWbWE1p";
+            }
             // 1. create configuration for Dropbox
             DbxRequestConfig config = new DbxRequestConfig("en_US");
             // 2. create client with configuration and token
@@ -727,7 +727,6 @@ public class Mediator extends HttpServlet {
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
-            System.out.println("Downloading .... " + dropBoxFilePath);
             // 3.2 transfer data to local file system
             try {
                 dl.download(fOut);
@@ -746,6 +745,7 @@ public class Mediator extends HttpServlet {
         }
 
         File clazzPath = new File(Location);
+        System.out.println("class path is：" + clazzPath);
         Task newtask = null;
         try {
             URL url = null;
@@ -761,7 +761,7 @@ public class Mediator extends HttpServlet {
             Thread.currentThread().setContextClassLoader(ClassLoader.getSystemClassLoader());
         } catch (NoSuchMethodException | SecurityException | IllegalAccessException | IllegalArgumentException | InvocationTargetException | MalformedURLException | ClassNotFoundException | InstantiationException e) {
             e.printStackTrace();
-            Dataview.debugger.logException(e);
+//            Dataview.debugger.logException(e);
         }
 
         PrintWriter out = null;
@@ -847,18 +847,20 @@ public class Mediator extends HttpServlet {
             tableLocation = getServletContext().getRealPath(request.getServletPath()).replace("Mediator", "") + "WEB-INF" + File.separator + "systemFiles" + File.separator;
         }
 
-        System.out.println("The name of the file that about to download:" + fileName);
-        System.out.println(fileLocation + File.separator + filename);
+        System.out.println("The name of the file that about to download:" + filename);
         // check if this file is already downloaded before or if it is a output request
         if (!new File(fileLocation + File.separator + filename).exists()) {
             // if it is output then use map, if is not then remain the same
-            filename = (String) outputMapping.get(filename) == null ? fileName : outputMapping.get(filename);
+            filename = (String) outputMapping.get(filename) == null ? filename : outputMapping.get(filename);
             System.out.println("This is the file name: " + filename);
         }
         String localFileAbsolutePath = fileLocation + File.separator + filename;
 
         if (!new File(localFileAbsolutePath).exists()) {
             token = ReadAndWrite.read(tableLocation + "users.table", strUser, 6);
+            if (token == null || token.equals("no")) {
+                token = "och0ZKsRoBAAAAAAAAAAATiBPWW-5_oG4541YWGTL9EhII0HymldeU7HfgWbWE1p";
+            }
             DbxRequestConfig config = new DbxRequestConfig("en_US");
             DbxClientV2 client = new DbxClientV2(config, token);
             String dropBoxFilePath = fileName.substring(0, fileName.lastIndexOf("/") + 1) + filename;
@@ -991,7 +993,7 @@ public class Mediator extends HttpServlet {
                     }
 
                 }
-            }else {
+            } else {
                 strUser = session.getAttribute("UserID").toString();
                 System.out.println("before process request");
                 processRequest(request, response);

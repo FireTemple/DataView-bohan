@@ -51,7 +51,7 @@ public class GetDropBoxListsServlet extends HttpServlet {
         while (true) {
 
             if (result != null) {
-                System.out.println("size of entries: " + result.getEntries().size());
+//                System.out.println("size of entries: " + result.getEntries().size());
 
 //                for (Metadata entry : result.getEntries()) {
 //                    System.out.println(++count + "th start");
@@ -68,7 +68,7 @@ public class GetDropBoxListsServlet extends HttpServlet {
 
                 result.getEntries().stream().filter(file -> file instanceof FileMetadata).forEach(file -> {
                     String filePath = file.getPathLower();
-                    System.out.println(filePath);
+//                    System.out.println(filePath);
                     if (filePath.startsWith("/dataview/tasks") && filePath.endsWith(".java")){
                         dropBoxResult.getTasks().add(file);
                     }else if (filePath.startsWith("/dataview-input/")){
@@ -83,7 +83,6 @@ public class GetDropBoxListsServlet extends HttpServlet {
                 }
             }
         }
-        System.out.println(dropBoxResult);
         String fileList = gson.toJson(dropBoxResult);
         resp.setContentType("application/json");
         resp.getWriter().println(fileList);

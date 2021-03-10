@@ -3,6 +3,21 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          id="WebApp_ID" version="3.0">
     <display-name>dataview-cloud</display-name>
+
+
+    <!-- test servlet -->
+    <servlet>
+        <display-name>TestServlet</display-name>
+        <servlet-name>TestServlet</servlet-name>
+        <servlet-class>com.bohan.controller.TestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TestServlet</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+
+
     <servlet>
         <description></description>
         <display-name>Mediator</display-name>
@@ -35,7 +50,71 @@
         <url-pattern>/UserLogin</url-pattern>
     </servlet-mapping>
 
+    <!-- user forget password  servlet-->
 
+    <!-- send validation vode -->
+    <servlet>
+        <display-name>ForGotPasswordServlet</display-name>
+        <servlet-name>ForGotPasswordServlet</servlet-name>
+        <servlet-class>com.bohan.controller.users.ForGotPasswordServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ForGotPasswordServlet</servlet-name>
+        <url-pattern>/sendCode</url-pattern>
+    </servlet-mapping>
+
+    <!-- check if validation code is correct -->
+    <servlet>
+        <display-name>CheckValidationServlet</display-name>
+        <servlet-name>CheckValidationServlet</servlet-name>
+        <servlet-class>com.bohan.controller.users.CheckValidationServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckValidationServlet</servlet-name>
+        <url-pattern>/validation</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- reset password -->
+    <servlet>
+        <display-name>ChangePasswordServlet</display-name>
+        <servlet-name>ChangePasswordServlet</servlet-name>
+        <servlet-class>com.bohan.controller.users.ChangePasswordServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ChangePasswordServlet</servlet-name>
+        <url-pattern>/resetPassword</url-pattern>
+    </servlet-mapping>
+
+    <!-- update user profile -->
+    <servlet>
+        <display-name>UpdateProfileServlet</display-name>
+        <servlet-name>UpdateProfileServlet</servlet-name>
+        <servlet-class>com.bohan.controller.users.UpdateProfileServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateProfileServlet</servlet-name>
+        <url-pattern>/updateProfile</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- Get user's profile -->
+    <servlet>
+        <display-name>GetUserProfile</display-name>
+        <servlet-name>GetUserProfile</servlet-name>
+        <servlet-class>com.bohan.controller.users.GetUserProfile</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GetUserProfile</servlet-name>
+        <url-pattern>/profile</url-pattern>
+    </servlet-mapping>
+
+    <!--  index controller -->
     <servlet>
         <display-name>toNewWorkbench</display-name>
         <servlet-name>toNewWorkbenchServlet</servlet-name>

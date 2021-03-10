@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * @ClassName diagramStr
- * @Description TODO
+ * @Description This is the class for diagram
  * @Author bohanxiao
  * @Data 2/12/21 12:41 PM
  * @Version 1.0

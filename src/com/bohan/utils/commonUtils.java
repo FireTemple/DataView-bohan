@@ -6,7 +6,7 @@ import java.util.Random;
 
 /**
  * @ClassName commonUtils
- * @Description TODO
+ * @Description This is a common utils class, will provide some useful tool method
  * @Author bohanxiao
  * @Data 2/27/21 12:56 AM
  * @Version 1.0
